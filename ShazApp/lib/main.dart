@@ -3,35 +3,18 @@
 // found in the LICENSE file.
 
 import 'package:flutter/material.dart';
+import 'package:untitled/second_screen.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'Welcome to Flutter',
-      home: FirstScreen(),
-    );
-  }
-}
-
-class FirstScreen extends StatelessWidget {
-  @override
-  Widget build (BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-          title: const Text("Shazamboni"),
-        ),
-        body: Center(
-          child: TextButton(
-            onPressed: () {},
-            child: const Text(
-            "Next Page",
-            style: TextStyle(fontSize: 20.0),
-            )
-    )
-    )
+      home: SecondScreen(),
     );
   }
 }
