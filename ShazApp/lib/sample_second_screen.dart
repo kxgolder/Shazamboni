@@ -24,8 +24,8 @@ class WaterButtonState extends State<WaterButton> {
 
   @override
   Widget build(BuildContext context) {
-    return new Scaffold(
-      appBar: new AppBar(title: new Text("Shazamboni"), backgroundColor: Colors.lightBlue,),
+    return Scaffold(
+      appBar: new AppBar(title: Text("Shazamboni"), backgroundColor: Colors.lightBlue,),
         body: new Container(
           child: new Center(
             child: new Column(
