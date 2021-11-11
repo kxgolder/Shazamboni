@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:control_pad/control_pad.dart';
+import 'package:untitled/main.dart';
+
+import 'home_screen.dart';
 
 class SecondScreen extends StatelessWidget {
   const SecondScreen({Key? key}) : super(key: key);
@@ -53,7 +56,9 @@ class SecondScreen extends StatelessWidget {
                 ),
               flex: 4,
             ),
-            TextButton(onPressed: () {}, child: const Text("On/Off"), style: ButtonStyle(backgroundColor: MaterialStateProperty.all(const Color.fromRGBO(255, 255, 255, 1)))),
+            TextButton(onPressed: () {
+              Navigator.push(context, MaterialPageRoute(builder: (context) => const FirstScreen()));
+            }, child: const Text("On/Off"), style: ButtonStyle(backgroundColor: MaterialStateProperty.all(const Color.fromRGBO(255, 255, 255, 1)))),
             Text("Degrees: $degrees"),
             Text("Distance: $distance")
           ]
