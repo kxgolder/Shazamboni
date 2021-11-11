@@ -5,16 +5,36 @@
 import 'package:flutter/material.dart';
 import 'package:untitled/second_screen.dart';
 
-void main() => runApp(const MyApp());
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: 'Welcome to Flutter',
-      home: SecondScreen(),
+      home: FirstScreen(),
+    );
+  }
+}
+
+class FirstScreen extends StatelessWidget {
+  @override
+  Widget build (BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(
+          title: const Text("Shazamboni"),
+        ),
+        body: Center(
+            child: TextButton(
+                onPressed: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => const SecondScreen()));
+                },
+                child: const Text(
+                  "Next Page",
+                  style: TextStyle(fontSize: 20.0),
+                )
+            )
+        )
     );
   }
 }
