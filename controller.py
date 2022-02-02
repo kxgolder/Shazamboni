@@ -20,21 +20,22 @@ def set_wheels(degrees):
 
 
 def set_speed(degrees, distance):
-    if degrees > 180:
+    if degrees == 0:
+        print(f"stop")
+    elif degrees > 180:
         print(f"go backward")
 
     elif degrees < 180:
         print(f"go forward")
 
-    else:
-        print(f"stop")
-
-
 while True:
     c, addr = s.accept()
     print(f"Connected to {addr}")
     c.send("OK".encode())
-    result = json.loads(c.recv(1024).decode())
+    try:
+        result = json.loads(c.recv(1024).decode())
+    except:
+        continue
     # x = result["distance"]*math.cos(result["degrees"])
     # y = result["distance"] * math.sin(result["degrees"])
     # print(f"x: {x}, y:{y}")
