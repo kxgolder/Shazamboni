@@ -59,7 +59,7 @@ class FirstScreen extends StatelessWidget {
                               ),
                               ElevatedButton(
                                   onPressed: () {
-                                    Navigator.push(context, MaterialPageRoute(builder: (context) => const SecondScreen()));
+                                    Navigator.push(context, MaterialPageRoute(builder: (context) => ControlScreen()));
                                   },
                                   child: const Text(
                                     "Start",
@@ -78,13 +78,3 @@ class FirstScreen extends StatelessWidget {
     );
   }
 }
-
-// TextButton(
-// onPressed: () {
-// Navigator.push(context, MaterialPageRoute(builder: (context) => const SecondScreen()));
-// },
-// child: const Text(
-// "Start Shazamboni-ing",
-// style: TextStyle(fontSize: 20.0),
-// )
-// )
