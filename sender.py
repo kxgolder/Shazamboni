@@ -13,6 +13,7 @@ s3 = {
     "degrees": 0 ,
     "distance": 0
 }
+
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect(('', 12345))
 packet = json.dumps(s1).encode()
