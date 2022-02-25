@@ -19,7 +19,7 @@ right_motor_parameters = {
     "en": 28
 }
 SPEED = 75
-def init():
+
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(left_motor_parameters["in"] + right_motor_parameters["in"], GPIO.OUT)
 GPIO.setup((left_motor_parameters["en"], right_motor_parameters["en"]), GPIO.OUT)
