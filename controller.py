@@ -12,19 +12,6 @@ s.listen(5)
 print("socket is listening")
 
 
-def set_speed(degrees, distance):
-    if distance == 0:
-        motor.stop()
-        print(f"stop")
-    elif 90 <= degrees <= 270:
-        motor.backward()
-        print(f"go backward")
-
-    elif 90 > degrees > 270:
-        motor.forward()
-        print(f"go forward")
-
-
 while True:
     c, addr = s.accept()
     print(f"Connected to {addr}")
@@ -38,7 +25,7 @@ while True:
         # x = result["distance"]*math.cos(result["degrees"])
         # y = result["distance"] * math.sin(result["degrees"])
         # print(f"x: {x}, y:{y}")
-        set_speed(result["degrees"], result["distance"])
+        motor.drive(result["degrees"], result["distance"])
 
     # c.close()
     # break
