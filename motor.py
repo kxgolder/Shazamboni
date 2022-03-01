@@ -18,8 +18,8 @@ left_motor_parameters = {
 # in4 = 27  # pin 24
 # enb = 28  # pin 28
 right_motor_parameters = {
-    "in": [26, 27],
-    "en": 28
+    "in": [27, 17],
+    "en": 22
 }
 
 GPIO.setmode(GPIO.BCM)
@@ -41,21 +41,27 @@ MIN_SPEED = -100
 def drive(degrees, distance):
     right, left = d.joystickToDiff(degrees, distance, MIN_JOYSTICK, MAX_JOYSTICK, MIN_SPEED, MAX_SPEED)
     if right > 0:
+
         GPIO.output(right_motor_parameters["in"][0], GPIO.HIGH)
         GPIO.output(right_motor_parameters["in"][1], GPIO.LOW)
     elif right < 0:
+
         GPIO.output(right_motor_parameters["in"][0], GPIO.LOW)
         GPIO.output(right_motor_parameters["in"][1], GPIO.HIGH)
     else:
+
         GPIO.output(right_motor_parameters["in"], GPIO.LOW)
 
     if left > 0:
+
         GPIO.output(left_motor_parameters["in"][0], GPIO.HIGH)
         GPIO.output(left_motor_parameters["in"][1], GPIO.LOW)
     elif left < 0:
+
         GPIO.output(left_motor_parameters["in"][0], GPIO.LOW)
         GPIO.output(left_motor_parameters["in"][1], GPIO.HIGH)
     else:
+
         GPIO.output(left_motor_parameters["in"], GPIO.LOW)
 
     left_motor.ChangeDutyCycle(math.fabs(left))
