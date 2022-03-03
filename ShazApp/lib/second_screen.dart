@@ -19,7 +19,7 @@ class _SecondScreenState extends State<ControlScreen> {
     int battery = 69;
     int tankCapacity = 24;
     Socket? socket;
-    Socket.connect("155.41.107.142", 1234).then((Socket sock) {
+    Socket.connect("10.0.4.61", 1234).then((Socket sock) {
       socket = sock;
       print("Connected to server\n");
     }).catchError((Error e) {
@@ -54,7 +54,7 @@ class _SecondScreenState extends State<ControlScreen> {
 
                                 if (socket != null)
                                   {
-                                    socket!.write("{\"degrees:\" $degrees, \"distance:\" $distance}");
+                                    socket!.write("{\"degrees\": $degrees, \"distance\": $distance}");
                                     socket!.write('\n');
                                   }
                             },
