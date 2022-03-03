@@ -38,6 +38,7 @@ print("r-run s-stop f-forward b-backward l-low m-medium h-high e-exit")
 print("\n")    
 x = 'r'
 while(1):
+    sleep(0.25)
     dist = distance(26, 19)
     print(dist)
     if dist <= 7:
