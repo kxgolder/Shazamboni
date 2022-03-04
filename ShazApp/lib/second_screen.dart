@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:control_pad/control_pad.dart';
 import 'package:untitled/main.dart';
 import 'dart:io';
-
+import 'package:web_socket_channel/web_socket_channel.dart';
+import 'package:web_socket_channel/status.dart' as status;
 import 'home_screen.dart';
 
 class ControlScreen extends StatefulWidget {
@@ -18,12 +19,10 @@ class _SecondScreenState extends State<ControlScreen> {
     double distance = 0;
     int battery = 69;
     int tankCapacity = 24;
-    Socket? socket;
-    Socket.connect("10.0.4.61", 1234).then((Socket sock) {
-      socket = sock;
-      print("Connected to server\n");
-    }).catchError((Error e) {
-      print("Unable to connect: $e");
+    final channel = WebSocketChannel.connect(
+      Uri.parse("ws://10.0.4.61:8001/"),
+    );
+    channel.stream.listen((message) {
     });
     //Connect standard in to the socket
 
@@ -51,12 +50,9 @@ class _SecondScreenState extends State<ControlScreen> {
                                 double varDistance) {
                                 degrees = double.parse((varDegrees).toStringAsFixed(2));
                                 distance = double.parse((varDistance).toStringAsFixed(2));
-
-                                if (socket != null)
-                                  {
-                                    socket!.write("{\"degrees\": $degrees, \"distance\": $distance}");
-                                    socket!.write('\n');
-                                  }
+                                var packet = "{\"degrees\": $degrees, \"distance\": $distance}";
+                                print(packet);
+                                channel.sink.add(packet);
                             },
                           ),
                           flex: 10,
