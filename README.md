@@ -1,5 +1,7 @@
 # Shazamboni
-
+ ## App code is in: websockets_app
+ ## Car controller is in: websockets
+ 
 This Github repository is created for the course EC463/464 ECE Senior Design at Boston University. 
 The project is created by Team 10: Katharina Golder, Bryan Jaimes, Robert Ling, & Yanni Pang.
 
