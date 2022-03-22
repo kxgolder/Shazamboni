@@ -5,6 +5,8 @@ import 'dart:io';
 import 'package:web_socket_channel/web_socket_channel.dart';
 import 'package:web_socket_channel/status.dart' as status;
 import 'home_screen.dart';
+import 'package:flutter_vlc_player/flutter_vlc_player.dart';
+//import 'package:flutter_vlc_player/vlc_player_controller.dart';
 
 class ControlScreen extends StatefulWidget {
   @override
@@ -19,11 +21,17 @@ class _SecondScreenState extends State<ControlScreen> {
     double distance = 0;
     int battery = 69;
     int tankCapacity = 24;
-    final channel = WebSocketChannel.connect(
-      Uri.parse("ws://10.0.4.61:8001/"),
+    VlcPlayerController _vlcViewController = VlcPlayerController.network(
+      'https://media.w3.org/2010/05/sintel/trailer.mp4',
+      hwAcc: HwAcc.full,
+      autoPlay: true,
+      options: VlcPlayerOptions(),
     );
-    channel.stream.listen((message) {
-    });
+    // final channel = WebSocketChannel.connect(
+    //   Uri.parse("ws://128.197.180.180:8001/"),
+    // );
+    // channel.stream.listen((message) {
+    // });
     //Connect standard in to the socket
 
     return Scaffold(
@@ -35,7 +43,11 @@ class _SecondScreenState extends State<ControlScreen> {
               children: [
                 Expanded(
                   child:
-                  Image.asset('assets/images/fakeLiveStream.jpg'),
+                  VlcPlayer(
+                    controller: _vlcViewController,
+                    aspectRatio: 2.1,
+                    placeholder: Center(child: CircularProgressIndicator()),
+                  ),
                   flex: 6,
                 ),
                 Expanded(
@@ -52,28 +64,10 @@ class _SecondScreenState extends State<ControlScreen> {
                                 distance = double.parse((varDistance).toStringAsFixed(2));
                                 var packet = "{\"degrees\": $degrees, \"distance\": $distance}";
                                 print(packet);
-                                channel.sink.add(packet);
+                                //channel.sink.add(packet);
                             },
                           ),
                           flex: 10,
-                        ),
-                        Expanded(
-                          child:
-                          TextButton(onPressed: () {},
-                              child: const Text("Blade"),
-                              style: ButtonStyle(
-                                  backgroundColor: MaterialStateProperty.all(
-                                      const Color.fromRGBO(255, 255, 255, 1)))),
-                          flex: 4,
-                        ),
-                        Expanded(
-                          child:
-                          TextButton(onPressed: () {},
-                              child: const Text("Water"),
-                              style: ButtonStyle(
-                                  backgroundColor: MaterialStateProperty.all(
-                                      const Color.fromRGBO(255, 255, 255, 1)))),
-                          flex: 4,
                         ),
                       ]
                   ),
