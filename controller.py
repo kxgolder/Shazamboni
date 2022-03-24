@@ -5,10 +5,14 @@ import motor
 
 
 async def handler(websocket):
+    print(f"Client connected: {websocket.remote_address}")
+    await websocket.send("Connected to server.")
     while True:
         try:
             message = await websocket.recv()
+            print(message)
         except websockets.ConnectionClosedOK:
+            print("Socket closed.")
             break
         try:
             result = json.loads(message)
@@ -17,6 +21,7 @@ async def handler(websocket):
         except:
             continue
         # print(message)
+
 
 async def main():
     async with websockets.serve(handler, "", 8001):

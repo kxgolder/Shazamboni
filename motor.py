@@ -11,15 +11,15 @@ from time import sleep
 # in2 = 23  # pin 24
 # en = 25  # pin 25
 left_motor_parameters = {
-    "in": [23, 24],
-    "en": 25
+    "in": [26, 27],
+    "en": 19
 }
 # in3 = 26  # pin 24
 # in4 = 27  # pin 24
 # enb = 28  # pin 28
 right_motor_parameters = {
-    "in": [27, 17],
-    "en": 22
+    "in": [24, 23],
+    "en": 25
 }
 
 GPIO.setmode(GPIO.BCM)
