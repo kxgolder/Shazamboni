@@ -4,22 +4,19 @@
 import math
 import RPi.GPIO as GPIO
 import differential_drive as d
+from settings import *
 
 from time import sleep
 
-# in1 = 24  # pin 24
-# in2 = 23  # pin 24
-# en = 25  # pin 25
+
 left_motor_parameters = {
-    "in": [26, 27],
-    "en": 19
+    "in": [L_IN_1, L_IN_2],
+    "en": L_EN
 }
-# in3 = 26  # pin 24
-# in4 = 27  # pin 24
-# enb = 28  # pin 28
+
 right_motor_parameters = {
-    "in": [24, 23],
-    "en": 25
+    "in": [R_IN_1, R_IN_2],
+    "en": R_EN
 }
 
 GPIO.setmode(GPIO.BCM)
