@@ -29,10 +29,7 @@ right_motor = GPIO.PWM(right_motor_parameters["en"], 1000)
 
 left_motor.start(25)
 right_motor.start(25)
-MAX_JOYSTICK = 1
-MIN_JOYSTICK = -1
-MAX_SPEED = 100
-MIN_SPEED = -100
+
 
 
 def drive(degrees, distance):
