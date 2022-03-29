@@ -39,7 +39,7 @@ def init():
 
 
 def drive(degrees, distance):
-    right, left = d.joystickToDiff(degrees, distance, MIN_JOYSTICK, MAX_JOYSTICK, MIN_SPEED, MAX_SPEED)
+    left, right = d.joystickToDiff(degrees, distance, MIN_JOYSTICK, MAX_JOYSTICK, MIN_SPEED, MAX_SPEED)
     if right > 0:
         # Drive the motor clockwise
         GPIO.output(right_motor_parameters["in"][0], GPIO.HIGH)
