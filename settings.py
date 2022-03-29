@@ -1,12 +1,12 @@
 # Left Motor Pins
 L_IN_1 = 26
-L_IN_2 = 27
-L_EN = 19
+L_IN_2 = 19
+L_EN = 13
 
 # Right Motor Pins
-R_IN_1 = 24
-R_IN_2 = 23
-R_EN = 25
+R_IN_1 = 20
+R_IN_2 = 16
+R_EN = 32
 
 # PWM Frequency
 PWM_FREQ = 100
