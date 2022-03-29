@@ -18,16 +18,18 @@ right_motor_parameters = {
     "en": R_EN
 }
 
-GPIO.setmode(GPIO.BCM)
-GPIO.setup(left_motor_parameters["in"] + right_motor_parameters["in"], GPIO.OUT)
-GPIO.setup((left_motor_parameters["en"], right_motor_parameters["en"]), GPIO.OUT)
 
-GPIO.output(left_motor_parameters["in"] + right_motor_parameters["in"], GPIO.LOW)
-left_motor = GPIO.PWM(left_motor_parameters["en"], 1000)
-right_motor = GPIO.PWM(right_motor_parameters["en"], 1000)
+def init():
+    GPIO.setmode(GPIO.BCM)
+    GPIO.setup(left_motor_parameters["in"] + right_motor_parameters["in"], GPIO.OUT)
+    GPIO.setup((left_motor_parameters["en"], right_motor_parameters["en"]), GPIO.OUT)
 
-left_motor.start(25)
-right_motor.start(25)
+    GPIO.output(left_motor_parameters["in"] + right_motor_parameters["in"], GPIO.LOW)
+    left_motor = GPIO.PWM(left_motor_parameters["en"], 100)
+    right_motor = GPIO.PWM(right_motor_parameters["en"], 100)
+
+    left_motor.start(0)
+    right_motor.start(0)
 
 
 def drive(degrees, distance):
