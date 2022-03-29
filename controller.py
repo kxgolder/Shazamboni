@@ -26,6 +26,7 @@ async def handler(websocket):
 async def main():
     print("Initializing motor")
     motor.init()
+    print("Initializing websocket server")
     async with websockets.serve(handler, "", 8001):
         await asyncio.Future()  # run forever
 

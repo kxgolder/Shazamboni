@@ -18,18 +18,24 @@ right_motor_parameters = {
     "en": R_EN
 }
 
+left_motor = None
+right_motor = None
+
 
 def init():
+    global left_motor, right_motor
     GPIO.setmode(GPIO.BCM)
     GPIO.setup(left_motor_parameters["in"] + right_motor_parameters["in"], GPIO.OUT)
     GPIO.setup((left_motor_parameters["en"], right_motor_parameters["en"]), GPIO.OUT)
 
     GPIO.output(left_motor_parameters["in"] + right_motor_parameters["in"], GPIO.LOW)
-    left_motor = GPIO.PWM(left_motor_parameters["en"], 100)
-    right_motor = GPIO.PWM(right_motor_parameters["en"], 100)
+    left_motor = GPIO.PWM(left_motor_parameters["en"], PWM_FREQ)
+    right_motor = GPIO.PWM(right_motor_parameters["en"], PWM_FREQ)
 
     left_motor.start(0)
     right_motor.start(0)
+
+    print("Finished initializing motors.")
 
 
 def drive(degrees, distance):
@@ -43,8 +49,9 @@ def drive(degrees, distance):
         GPIO.output(right_motor_parameters["in"][0], GPIO.LOW)
         GPIO.output(right_motor_parameters["in"][1], GPIO.HIGH)
     else:
-
-        GPIO.output(right_motor_parameters["in"], GPIO.LOW)
+        # Stop the motor
+        GPIO.output(right_motor_parameters["in"][0], GPIO.LOW)
+        GPIO.output(right_motor_parameters["in"][1], GPIO.LOW)
 
     if left > 0:
         # Drive the motor clockwise
@@ -56,8 +63,9 @@ def drive(degrees, distance):
         GPIO.output(left_motor_parameters["in"][0], GPIO.LOW)
         GPIO.output(left_motor_parameters["in"][1], GPIO.HIGH)
     else:
-
-        GPIO.output(left_motor_parameters["in"], GPIO.LOW)
+        # Stop the motor
+        GPIO.output(left_motor_parameters["in"][0], GPIO.LOW)
+        GPIO.output(left_motor_parameters["in"][1], GPIO.LOW)
 
     # Set speed of motor
     left_motor.ChangeDutyCycle(math.fabs(left))

@@ -8,6 +8,9 @@ R_IN_1 = 24
 R_IN_2 = 23
 R_EN = 25
 
+# PWM Frequency
+PWM_FREQ = 100
+
 # Joystick Parameters and Speed Definitions
 MAX_JOYSTICK = 1
 MIN_JOYSTICK = -1
