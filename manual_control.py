@@ -5,12 +5,12 @@
 import RPi.GPIO as GPIO          
 from time import sleep
 
-in1 = 24
-in2 = 23
-in3 = 17
-in4 = 27
-en = 25
-enb = 22
+in1 = 20
+in2 = 16
+in3 = 26
+in4 = 19
+en = 12
+enb = 13
 temp1=1
 
 GPIO.setmode(GPIO.BCM)
@@ -25,12 +25,12 @@ GPIO.output(in2,GPIO.LOW)
 GPIO.output(in3,GPIO.LOW)
 GPIO.output(in4,GPIO.LOW)
 
-p=GPIO.PWM(en,1000)
-p2=GPIO.PWM(enb,1000)
+p=GPIO.PWM(en,100)
+p2=GPIO.PWM(enb,100)
 
 
-p.start(25)
-p2.start(25)
+p.start(0)
+p2.start(0)
 print("\n")
 print("The default speed & direction of motor is LOW & Forward.....")
 print("r-run s-stop f-forward b-backward l-low m-medium h-high e-exit")
@@ -84,10 +84,10 @@ while(1):
         x='z'
     elif x=='a':
         print("left")
-        GPIO.output(in1,GPIO.LOW)
+        GPIO.output(in1,GPIO.HIGH)
         GPIO.output(in2,GPIO.LOW)
-        GPIO.output(in3,GPIO.HIGH)
-        GPIO.output(in4,GPIO.LOW)
+        GPIO.output(in3,GPIO.LOW)
+        GPIO.output(in4,GPIO.HIGH)
         temp1=0
         x='z'
     elif x=='d':
@@ -110,8 +110,8 @@ while(1):
 
     elif x=='h':
         print("high")
-        p.ChangeDutyCycle(75)
-        p2.ChangeDutyCycle(75)
+        p.ChangeDutyCycle(100)
+        p2.ChangeDutyCycle(100)
         x='z'
     elif x=='e':
         GPIO.cleanup()

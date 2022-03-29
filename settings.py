@@ -6,7 +6,7 @@ L_EN = 13
 # Right Motor Pins
 R_IN_1 = 20
 R_IN_2 = 16
-R_EN = 32
+R_EN = 12
 
 # PWM Frequency
 PWM_FREQ = 100
