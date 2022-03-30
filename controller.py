@@ -1,44 +1,35 @@
-import socket
 import json
-import math
+import asyncio
+import websockets
 import motor
 
-s = socket.socket()
-print("Created Socket")
-port = 12345
-s.bind(('', port))
-print(f"socket binded to {port}")
-s.listen(5)
-print("socket is listening")
 
-
-def set_speed(degrees, distance):
-    if distance == 0:
-        motor.stop()
-        print(f"stop")
-    elif 90 <= degrees <= 270:
-        motor.backward()
-        print(f"go backward")
-
-    elif 90 > degrees > 270:
-        motor.forward()
-        print(f"go forward")
-
-
-while True:
-    c, addr = s.accept()
-    print(f"Connected to {addr}")
-    c.send("OK".encode())
-    while (1):
+async def handler(websocket):
+    print(f"Client connected: {websocket.remote_address}")
+    await websocket.send("Connected to server.")
+    while True:
         try:
-            result = json.loads(c.recv(1024).decode())
-            print(result)
+            message = await websocket.recv()
+            print(message)
+        except websockets.ConnectionClosedOK:
+            print("Socket closed.")
+            break
+        try:
+            result = json.loads(message)
+            print(f"degrees: {result['degrees']}, distance: {result['distance']}")
+            motor.drive(result["degrees"], result["distance"])
         except:
             continue
-        # x = result["distance"]*math.cos(result["degrees"])
-        # y = result["distance"] * math.sin(result["degrees"])
-        # print(f"x: {x}, y:{y}")
-        set_speed(result["degrees"], result["distance"])
+        # print(message)
 
-    # c.close()
-    # break
+
+async def main():
+    print("Initializing motor")
+    motor.init()
+    print("Initializing websocket server")
+    async with websockets.serve(handler, "", 8001):
+        await asyncio.Future()  # run forever
+
+
+if __name__ == "__main__":
+    asyncio.run(main())

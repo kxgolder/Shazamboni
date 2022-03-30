@@ -39,7 +39,6 @@ def joystickToDiff(angle, distance, minJoystick, maxJoystick, minSpeed, maxSpeed
 
     # and in degrees
     angle = rad * 180 / math.pi
-    print(angle)
 
     # Now angle indicates the measure of turn
     # Along a straight line, with an angle o, the turn co-efficient is same
@@ -70,7 +69,6 @@ def joystickToDiff(angle, distance, minJoystick, maxJoystick, minSpeed, maxSpeed
     # Map the values onto the defined rang
     rightOut = map(rawRight, minJoystick, maxJoystick, minSpeed, maxSpeed)
     leftOut = map(rawLeft, minJoystick, maxJoystick, minSpeed, maxSpeed)
-    print(rawRight, rawLeft)
 
     return (rightOut, leftOut)
 
