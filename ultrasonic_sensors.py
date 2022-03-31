@@ -35,7 +35,7 @@ def distance(trigger, echo):
     while GPIO.input(echo) == 1:
         #        print("GPIO Input echo is one")
         StopTime = time.time()
-        if ((StopTime - StartTime) * 34300 / 2) >= 500:
+        if ((StopTime - StartTime) * 34300 / 2) >= 250:
             break
 
     # while GPIO.input(GPIO_ECHO_2) == 1:

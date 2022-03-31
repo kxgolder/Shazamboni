@@ -57,12 +57,13 @@ async def handler(websocket):
             result = json.loads(message)
             print(f"degrees: {result['degrees']}, distance: {result['distance']}")
             # check_distance(F_GPIO_TRIGGER, F_GPIO_ECHO)
+            front_dist = u.distance(F_GPIO_TRIGGER, F_GPIO_ECHO)
             back_dist = u.distance(B_GPIO_TRIGGER, B_GPIO_ECHO)
-            print(back_dist)
-            if back_dist <= US_THRESHOLD:
+            print(back_dist, front_dist)
+            if back_dist <= US_THRESHOLD or front_dist <= US_THRESHOLD:
                 print("SENDING 1")
                 await websocket.send("1")
-            if not (check_distance(B_GPIO_TRIGGER, B_GPIO_ECHO, back_dist, websocket)):
+            if not (check_distance(B_GPIO_TRIGGER, B_GPIO_ECHO, back_dist, websocket) or check_distance(F_GPIO_TRIGGER, F_GPIO_ECHO, front_dist, websocket)):
                 motor.drive(result["degrees"], result["distance"])
             else:
                 print("Dropped packet")
