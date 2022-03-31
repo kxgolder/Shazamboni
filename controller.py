@@ -2,7 +2,7 @@ import json
 import asyncio
 import websockets
 import motor
-
+import RPi.GPIO as GPIO
 
 async def handler(websocket):
     print(f"Client connected: {websocket.remote_address}")
@@ -30,6 +30,9 @@ async def main():
     async with websockets.serve(handler, "", 8001):
         await asyncio.Future()  # run forever
 
-
 if __name__ == "__main__":
-    asyncio.run(main())
+    try:
+        asyncio.run(main())
+    except KeyboardInterrupt:
+        print("Cleaning up GPIO")
+        GPIO.cleanup()
