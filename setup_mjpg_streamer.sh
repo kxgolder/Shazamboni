@@ -3,23 +3,23 @@ PWD=$HOME
 cd PWD
 git clone https://github.com/ArduCAM/mjpg-streamer.git
 git clone https://git.libcamera.org/libcamera/libcamera.git
-sudo apt install -y g++ gcc cmake python3-yaml python3-ply python3-jinja2 libgnutls28-dev openssl libdw-dev libunwind-dev libboost-dev python3-pip libjpeg62-turbo-dev:armhf libjpeg62-turbo-dev
-sudo pip3 install meson
-sudo ln -s /usr/local/bin/meson /usr/bin/meson
+apt install -y g++ gcc cmake python3-yaml python3-ply python3-jinja2 libgnutls28-dev openssl libdw-dev libunwind-dev libboost-dev python3-pip libjpeg62-turbo-dev:armhf libjpeg62-turbo-dev
+pip3 install meson
+ln -s /usr/local/bin/meson /usr/bin/meson
 
 # Compile libcamera
 cd libcamera
 meson build
-sudo ninja -C build install
+ninja -C build install
 cd PWD
 
 # Compile mjpg-streamer
 cd mjpg-streamer/mjpg-streamer-experimental
 make
-sudo make install
-sudo useradd -m webcam
-sudo adduser webcam video
-sudo usermod -a -G video webcam
+make install
+useradd -m webcam
+adduser webcam video
+usermod -a -G video webcam
 
 cd scripts/
 cp mjpg-streamer.default /etc/default/mjpg-streamer
@@ -197,9 +197,9 @@ case "$1" in
 esac
 EOF
 
-sudo mv mjpg_streamer /etc/init.d/mjpg-streamer
-sudo update-rc.d mjpg-streamer defaults
-sudo systemctl daemon-reload
+mv mjpg_streamer /etc/init.d/mjpg-streamer
+update-rc.d mjpg-streamer defaults
+systemctl daemon-reload
 
 cat > mjpg-streamer.service <<EOF
 [Unit]
@@ -216,6 +216,6 @@ ExecStart=/etc/init.d/mjpg-streamer start
 WantedBy=multi-user.target
 EOF
 
-sudo mv mjpg_streamer.service /etc/systemd/system/mjpg-streamer.service
-sudo systemctl enable mjpg-streamer.service
-sudo reboot
+mv mjpg_streamer.service /etc/systemd/system/mjpg-streamer.service
+systemctl enable mjpg-streamer.service
+reboot
