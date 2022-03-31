@@ -1,0 +1,10 @@
+ [Unit]
+ Description=Shazamboni Car Controller
+ After=multi-user.target
+
+ [Service]
+ Type=idle
+ ExecStart=/usr/bin/python3 /home/pi/Shazamboni/controller.py > /home/pi/controller.log 2>&1
+
+ [Install]
+ WantedBy=multi-user.target
