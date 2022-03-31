@@ -26,9 +26,11 @@ def check_distance(trigger, echo):
         else:
             # If front ultrasonic is tripped, reverse vehicle
             if trigger == F_GPIO_TRIGGER:
+                print("Front ultrasonic tripped, reversing vehicle")
                 motor.drive(180, 0.5)
             else:
                 # else read ultrasonic was triggered, advance vehicle
+                print("Rear ultrasonic tripped, advancing vehicle")
                 motor.drive(0, 0.5)
 
             while True:
