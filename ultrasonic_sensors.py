@@ -17,18 +17,13 @@ def distance(trigger, echo):
     # set Trigger to HIGH
 #    print("Setting trigger to high")
     GPIO.output(trigger, True)
-    # GPIO.output(GPIO_TRIGGER_2, True)
-
     # set Trigger after 0.01ms to LOW
     time.sleep(0.00001)
     GPIO.output(trigger, False)
     # GPIO.output(GPIO_TRIGGER_2, False)
 #    print("Get start time")
     StartTime = time.time()
-    StopTime = time.time()
 
-    # StartTime_2 = time.time()
-    # StopTime_2 = time.time()
     # save StartTime
     while GPIO.input(echo) == 0:
 #        print("GPIO input echo is zero")

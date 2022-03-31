@@ -29,8 +29,8 @@ MIN_SPEED = -100
 Ultrasonic Sensor Settings
 """
 # Distance Threshold (cm)
-US_THRESHOLD = 7
-US_ADDITIONAL_DISTANCE = 3
+US_THRESHOLD = 20
+US_ADDITIONAL_DISTANCE = 10
 # GPIO Pins for Ultrasonic Sensors
 # Front Ultrasonic Sensor
 F_GPIO_TRIGGER = 18
