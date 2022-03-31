@@ -19,8 +19,8 @@ def check_distance(trigger, echo):
             print("Vehicle is stuck. Remove obstacles or adjust position")
             while True:
                 # if vehicle is adjusted to be ok, return
-                if u.distance(F_GPIO_TRIGGER, F_GPIO_ECHO) >= US_THRESHOLD and u.distance(B_GPIO_TRIGGER,
-                                                                                          B_GPIO_ECHO) >= US_THRESHOLD:
+                if u.distance(F_GPIO_TRIGGER, F_GPIO_ECHO) > US_THRESHOLD and u.distance(B_GPIO_TRIGGER,
+                                                                                          B_GPIO_ECHO) > US_THRESHOLD:
                     print("Vehicle adjusted.")
                     return
         else:
@@ -33,7 +33,7 @@ def check_distance(trigger, echo):
 
             while True:
                 # Stop vehicle after threshold is passed
-                if u.distance(trigger, echo) >= US_THRESHOLD:
+                if u.distance(trigger, echo) > US_THRESHOLD:
                     motor.drive(0, 0)
                     return
 
