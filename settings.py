@@ -16,3 +16,12 @@ MAX_JOYSTICK = 1
 MIN_JOYSTICK = -1
 MAX_SPEED = 100
 MIN_SPEED = -100
+
+# GPIO Pins for Ultrasonic Sensors
+# Front Ultrasonic Sensor
+F_GPIO_TRIGGER = 18
+F_GPIO_ECHO = 24
+
+# Back Ultrasonic Sensor
+B_GPIO_TRIGGER_2 = 22
+B_GPIO_ECHO_2 = 23
