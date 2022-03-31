@@ -35,7 +35,7 @@ def check_distance(trigger, echo):
 
             while True:
                 # Stop vehicle after threshold is passed
-                if u.distance(trigger, echo) > US_THRESHOLD:
+                if u.distance(trigger, echo) > US_THRESHOLD + US_ADDITIONAL_DISTANCE:
                     motor.drive(0, 0)
                     return
 
