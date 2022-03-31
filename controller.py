@@ -9,8 +9,10 @@ import time
 
 
 def check_distance(trigger, echo):
+    print("Checking distance")
     if u.distance(trigger, echo) <= US_THRESHOLD:
         # Stop vehicle from moving
+        print("Stopping vehicle")
         motor.drive(0, 0)
 
         # if both sensors tripped threshold, vehicle is stuck
@@ -34,6 +36,7 @@ def check_distance(trigger, echo):
                 motor.drive(0, 0.5)
 
             while True:
+                print("Release car")
                 # Stop vehicle after threshold is passed
                 if u.distance(trigger, echo) > US_THRESHOLD + US_ADDITIONAL_DISTANCE:
                     motor.drive(0, 0)
@@ -55,7 +58,7 @@ async def handler(websocket):
             result = json.loads(message)
             print(f"degrees: {result['degrees']}, distance: {result['distance']}")
 
-            check_distance(F_GPIO_TRIGGER, F_GPIO_ECHO)
+#            check_distance(F_GPIO_TRIGGER, F_GPIO_ECHO)
             check_distance(B_GPIO_TRIGGER, B_GPIO_ECHO)
 
             motor.drive(result["degrees"], result["distance"])
