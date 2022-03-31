@@ -22,6 +22,7 @@ class _SecondScreenState extends State<ControlScreen> {
     double distance = 0;
     int battery = 69;
     int tankCapacity = 24;
+    String dropped = "0";
 
     // VlcPlayerController _vlcViewController = VlcPlayerController.network(
     //   'http://10.0.4.150:8080/?action=stream',
@@ -30,9 +31,19 @@ class _SecondScreenState extends State<ControlScreen> {
     //   options: VlcPlayerOptions(),
     // );
     final channel = WebSocketChannel.connect(
-      Uri.parse("ws://128.197.180.180:8001/"),
+      Uri.parse("ws://172.20.10.7:8001/"),
     );
     channel.stream.listen((message) {
+      if (dropped == '1' && message == '0') {
+        channel.sink.add("{\"degrees\": 0, \"distance\": 0}");
+        print('\n' + message);
+        dropped = message;
+      }
+      else if (message == "1" || message == "0")
+        {
+          print('\n' + message);
+          dropped = message;
+        }
     });
     //Connect standard in to the socket
 
@@ -53,7 +64,7 @@ class _SecondScreenState extends State<ControlScreen> {
                       return Text(error.toString(), style: TextStyle(color: Colors.red));
                     },
                     stream:
-                    'http://10.0.4.150:8080/?action=stream', //'http://192.168.1.37:8081',
+                    'http://172.20.10.7:8080/?action=stream', //'http://192.168.1.37:8081',
                   ),
                   // VlcPlayer(
                   //   controller: _vlcViewController,
@@ -75,8 +86,11 @@ class _SecondScreenState extends State<ControlScreen> {
                                 degrees = double.parse((varDegrees).toStringAsFixed(2));
                                 distance = double.parse((varDistance).toStringAsFixed(2));
                                 var packet = "{\"degrees\": $degrees, \"distance\": $distance}";
-                                print(packet);
-                                channel.sink.add(packet);
+                                if (dropped == "0") {
+                                  print(packet);
+                                  channel.sink.add(packet);
+                                }
+
                             },
                           ),
                           flex: 10,
