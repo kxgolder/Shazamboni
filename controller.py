@@ -7,9 +7,9 @@ import RPi.GPIO as GPIO
 from settings import *
 import time
 
-def check_distance(trigger, echo, dist, websocket):
+def check_distance(trigger1, trigger2, echo1, echo2, back_dist, front_dist):
     print("Checking distance")
-    if dist <= US_THRESHOLD:
+    if back_dist <= US_THRESHOLD or front_dist <= US_THRESHOLD:
 
         # Stop vehicle from moving
         print("Stopping vehicle")
@@ -27,7 +27,7 @@ def check_distance(trigger, echo, dist, websocket):
                     return 1
         else:
             # If front ultrasonic is tripped, reverse vehicle
-            if trigger == F_GPIO_TRIGGER:
+            if front_dist <= US_THRESHOLD:
                 print("Front ultrasonic tripped, reversing vehicle")
                 motor.drive(180, 1)
             else:
@@ -37,7 +37,7 @@ def check_distance(trigger, echo, dist, websocket):
 
             while True:
                 # Stop vehicle after threshold is passed
-                if u.distance(trigger, echo) > US_THRESHOLD + US_ADDITIONAL_DISTANCE:
+                if u.distance(trigger1, echo1) > US_THRESHOLD + US_ADDITIONAL_DISTANCE and u.distance(trigger2, echo2) > US_THRESHOLD + US_ADDITIONAL_DISTANCE:
                     motor.drive(0, 0)
                     return 1
 
@@ -63,7 +63,7 @@ async def handler(websocket):
             if back_dist <= US_THRESHOLD or front_dist <= US_THRESHOLD:
                 print("SENDING 1")
                 await websocket.send("1")
-            if not (check_distance(B_GPIO_TRIGGER, B_GPIO_ECHO, back_dist, websocket) or check_distance(F_GPIO_TRIGGER, F_GPIO_ECHO, front_dist, websocket)):
+            if not (check_distance(B_GPIO_TRIGGER, F_GPIO_TRIGGER, B_GPIO_ECHO, F_GPIO_ECHO, back_dist, front_dist)):
                 motor.drive(result["degrees"], result["distance"])
             else:
                 print("Dropped packet")
