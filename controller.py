@@ -58,6 +58,7 @@ async def handler(websocket):
             print(f"degrees: {result['degrees']}, distance: {result['distance']}")
             # check_distance(F_GPIO_TRIGGER, F_GPIO_ECHO)
             back_dist = u.distance(B_GPIO_TRIGGER, B_GPIO_ECHO)
+            print(back_dist)
             if back_dist <= US_THRESHOLD:
                 print("SENDING 1")
                 await websocket.send("1")
