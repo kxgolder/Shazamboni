@@ -31,6 +31,8 @@ Ultrasonic Sensor Settings
 # Distance Threshold (cm)
 US_THRESHOLD = 20
 US_ADDITIONAL_DISTANCE = 10
+US_LATENCY = 300
+
 # GPIO Pins for Ultrasonic Sensors
 # Front Ultrasonic Sensor
 F_GPIO_TRIGGER = 18
