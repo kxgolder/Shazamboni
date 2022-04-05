@@ -6,6 +6,7 @@ import time
 
 # set GPIO direction (IN / OUT)
 def init():
+    GPIO.setmode(GPIO.BCM)
     GPIO.setup(F_GPIO_TRIGGER, GPIO.OUT)
     GPIO.setup(F_GPIO_ECHO, GPIO.IN)
     GPIO.setup(B_GPIO_TRIGGER, GPIO.OUT)
@@ -36,6 +37,8 @@ def distance(trigger, echo):
     # save time of arrival
     while GPIO.input(echo) == 1:
         StopTime = time.time()
+        if ((StopTime - StartTime) * 34300 / 2) >= 500:
+            break
 
     # while GPIO.input(GPIO_ECHO_2) == 1:
     # StopTime_2 = time.time()
