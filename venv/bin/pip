@@ -1,4 +1,4 @@
-#!/home/pi/Shazamboni/venv/bin/python3
+#!/Users/yannipang/PycharmProjects/Shazamboni_controller/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
