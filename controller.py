@@ -9,8 +9,8 @@ from gpiozero import DistanceSensor
 from settings import *
 import time
 
-f_state = None
-r_state = None
+f_state = Value('s', "clear")
+r_state = Value('s', "clear")
 
 
 def front_ultrasonic_detection(a):
@@ -58,7 +58,7 @@ async def handler(websocket):
         try:
             result = json.loads(message)
 
-            if f_state == "clear" and r_state == "clear":
+            if f_state.value == "clear" and r_state.value == "clear":
                 motor.drive(result["degrees"], result["distance"])
             else:
                 continue
@@ -73,8 +73,6 @@ async def main():
     u.init()
     global f_state
     global r_state
-    f_state = Value('s', "clear")
-    r_state = Value('s', "clear")
     p = Process(target=front_ultrasonic_detection, args=f_state)
     p1 = Process(target=rear_ultrasonic_detection, args=r_state)
     p.start()
