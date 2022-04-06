@@ -22,8 +22,8 @@ def front_ultrasonic_detection(a):
         motor.drive(180, 1)
         front_ultrasonic.wait_for_out_of_range()
         print("Out of range")
-        if a.value == "triggered":
-            motor.drive(0, 0)
+        # if a.value == "triggered":
+        motor.drive(0, 0)
         a.value = "clear"
 
 
@@ -36,8 +36,8 @@ def rear_ultrasonic_detection(a):
         motor.drive(0, 1)
         rear_ultrasonic.wait_for_out_of_range()
         print("Out of range")
-        if a.value == "triggered":
-            motor.drive(0, 0)
+        # if a.value == "triggered":
+        motor.drive(0, 0)
         a.value = "clear"
 
 
