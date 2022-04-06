@@ -54,7 +54,6 @@ async def handler(websocket):
 
         try:
             message = await websocket.recv()
-            print(message)
         except websockets.ConnectionClosedOK:
             print("Socket closed.")
             break
@@ -62,6 +61,7 @@ async def handler(websocket):
             result = json.loads(message)
 
             if f_state.value == "clear" and r_state.value == "clear":
+                print(message)
                 motor.drive(result["degrees"], result["distance"])
             else:
                 continue
