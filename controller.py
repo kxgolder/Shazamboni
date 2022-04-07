@@ -63,7 +63,7 @@ async def handler(websocket):
             result = json.loads(message)
 
             if f_state.value == 0 and r_state.value == 0:
-                print(message)
+                # print(message)
                 motor.drive(result["degrees"], result["distance"])
             else:
                 continue
