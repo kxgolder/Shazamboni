@@ -17,6 +17,7 @@ def front_ultrasonic_detection(a):
     front_ultrasonic = DistanceSensor(echo=F_GPIO_ECHO, trigger=F_GPIO_TRIGGER)
     front_ultrasonic.threshold_distance = US_THRESHOLD
     u.init()
+    motor.init()
     while True:
         front_ultrasonic.wait_for_in_range()
         print("Front ultrasonic tripped, reversing vehicle")
@@ -33,6 +34,7 @@ def rear_ultrasonic_detection(a):
     rear_ultrasonic = DistanceSensor(echo=B_GPIO_ECHO, trigger=B_GPIO_TRIGGER)
     rear_ultrasonic.threshold_distance = US_THRESHOLD
     u.init()
+    motor.init()
 
     while True:
         rear_ultrasonic.wait_for_in_range()
