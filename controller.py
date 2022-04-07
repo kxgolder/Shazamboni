@@ -9,8 +9,8 @@ from gpiozero import DistanceSensor
 from settings import *
 import time
 
-f_state = Value('s', "clear")
-r_state = Value('s', "clear")
+f_state = Value('i', "0")
+r_state = Value('i', "0")
 
 
 def front_ultrasonic_detection(a):
@@ -19,13 +19,13 @@ def front_ultrasonic_detection(a):
     while True:
         front_ultrasonic.wait_for_in_range()
         print("Front ultrasonic tripped, reversing vehicle")
-        a.value = "triggered"
+        a.value = 1
         motor.drive(180, 1)
         front_ultrasonic.wait_for_out_of_range()
         print("Out of range")
         # if a.value == "triggered":
         motor.drive(0, 0)
-        a.value = "clear"
+        a.value = 0
 
 
 def rear_ultrasonic_detection(a):
@@ -35,20 +35,18 @@ def rear_ultrasonic_detection(a):
     while True:
         rear_ultrasonic.wait_for_in_range()
         print("Rear ultrasonic tripped, advancing vehicle")
-        a.value = "triggered"
+        a.value = 1
         motor.drive(0, 1)
         rear_ultrasonic.wait_for_out_of_range()
         print("Out of range")
         # if a.value == "triggered":
         motor.drive(0, 0)
-        a.value = "clear"
+        a.value = 0
 
 
 async def handler(websocket):
     print(f"Client connected: {websocket.remote_address}")
     await websocket.send("Connected to server.")
-    global f_state
-    global r_state
 
     while True:
 
@@ -60,7 +58,7 @@ async def handler(websocket):
         try:
             result = json.loads(message)
 
-            if f_state.value == "clear" and r_state.value == "clear":
+            if f_state.value == 0 and r_state.value == 0:
                 print(message)
                 motor.drive(result["degrees"], result["distance"])
             else:
@@ -74,10 +72,9 @@ async def handler(websocket):
 async def main():
     print("Initializing ultrasonic sensors")
     u.init()
-    global f_state
-    global r_state
-    p = Process(target=front_ultrasonic_detection, args=f_state)
-    p1 = Process(target=rear_ultrasonic_detection, args=r_state)
+
+    p = Process(target=front_ultrasonic_detection, args=(f_state,))
+    p1 = Process(target=rear_ultrasonic_detection, args=(r_state,))
     p.start()
     p1.start()
 
