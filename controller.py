@@ -62,7 +62,8 @@ async def handler(websocket):
         try:
             result = json.loads(message)
 
-            if f_state.value == 0 and r_state.value == 0:
+#            if f_state.value == 0 and r_state.value == 0:
+            if result:
                 # print(message)
                 motor.drive(result["degrees"], result["distance"])
             else:
@@ -76,10 +77,10 @@ async def handler(websocket):
 async def main():
     print("Initializing ultrasonic sensors")
 
-    p = Process(target=front_ultrasonic_detection, args=(f_state,))
-    p1 = Process(target=rear_ultrasonic_detection, args=(r_state,))
-    p.start()
-    p1.start()
+#    p = Process(target=front_ultrasonic_detection, args=(f_state,))
+#    p1 = Process(target=rear_ultrasonic_detection, args=(r_state,))
+#    p.start()
+#    p1.start()
 
     print("Initializing motors")
     motor.init()

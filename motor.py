@@ -68,6 +68,6 @@ def drive(degrees, distance):
         GPIO.output(left_motor_parameters["in"][1], GPIO.LOW)
 
     # Set speed of motor
-    # print(f"Set duty cycle: left motor: {math.fabs(left)}, right motor: {math.fabs(right)}")
+#    print(f"Set duty cycle: left motor: {math.fabs(left)}, right motor: {math.fabs(right)}")
     left_motor.ChangeDutyCycle(math.fabs(left))
     right_motor.ChangeDutyCycle(math.fabs(right))

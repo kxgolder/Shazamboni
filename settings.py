@@ -13,7 +13,7 @@ R_IN_2 = 16
 R_EN = 12
 
 # PWM Frequency
-PWM_FREQ = 100
+PWM_FREQ = 1000
 
 """
 Differential Driving Settings
