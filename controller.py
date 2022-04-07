@@ -9,8 +9,8 @@ from gpiozero import DistanceSensor
 from settings import *
 import time
 
-f_state = Value('i', "0")
-r_state = Value('i', "0")
+f_state = Value('i', 0)
+r_state = Value('i', 0)
 
 
 def front_ultrasonic_detection(a):
