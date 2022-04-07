@@ -28,8 +28,8 @@ MIN_SPEED = -100
 """
 Ultrasonic Sensor Settings
 """
-# Distance Threshold (cm)
-US_THRESHOLD = 20
+# Distance Threshold (m)
+US_THRESHOLD = 0.2
 US_ADDITIONAL_DISTANCE = 10
 US_LATENCY = 300
 
