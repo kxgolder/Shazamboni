@@ -92,7 +92,7 @@ def drive(degrees, distance, left_motor, right_motor):
         left_motor.stop()
 
     # Set speed of motor
-    print(f"Degrees: {degrees}")
-    print(f"Set duty cycle: left motor: {math.fabs(left)}, right motor: {math.fabs(right)}")
+    # print(f"Degrees: {degrees}")
+    # print(f"Set duty cycle: left motor: {math.fabs(left)}, right motor: {math.fabs(right)}")
     # right_motor.ChangeDutyCycle(math.fabs(right))
     # left_motor.ChangeDutyCycle(math.fabs(left))

@@ -69,7 +69,11 @@ def rear_ultrasonic_detection(a):
 
 left_motor = None
 right_motor = None
+front_ultrasonic = DistanceSensor(echo=F_GPIO_ECHO, trigger=F_GPIO_TRIGGER)
+front_ultrasonic.threshold_distance = US_THRESHOLD
 
+rear_ultrasonic = DistanceSensor(echo=B_GPIO_ECHO, trigger=B_GPIO_TRIGGER)
+rear_ultrasonic.threshold_distance = US_THRESHOLD
 
 async def handler(websocket):
     global left_motor, right_motor
@@ -84,13 +88,24 @@ async def handler(websocket):
             break
         try:
             result = json.loads(message)
-            print(f_state.value, r_state.value)
             if f_state.value == 0 and r_state.value == 0:
                 if left_motor is None:
-                    left_motor = Motor(L_IN_1, L_IN_2, enable=L_EN)
+                    left_motor = Motor(L_IN_1, L_IN_2, enable=L_EN, pwm=True)
                 if right_motor is None:
-                    right_motor = Motor(R_IN_1, R_IN_2, enable=R_EN)
-                print(message)
+                    right_motor = Motor(R_IN_1, R_IN_2, enable=R_EN, pwm=True)
+
+                if(front_ultrasonic.distance <= US_THRESHOLD):
+                    motor.drive(180, 1, left_motor, right_motor)
+                    time.sleep(0.5)
+                    motor.drive(0, 0, left_motor, right_motor)
+
+
+                if (rear_ultrasonic.distance <= US_THRESHOLD):
+                    motor.drive(0, 1, left_motor, right_motor)
+                    time.sleep(0.5)
+                    motor.drive(0, 0, left_motor, right_motor)
+
+
                 motor.drive(result["degrees"], result["distance"], left_motor, right_motor)
                 # left_motor.forward(1)
 
@@ -123,14 +138,14 @@ if __name__ == "__main__":
     # print("Initializing ultrasonic sensors")
 
     try:
-        p = Process(target=front_ultrasonic_detection, args=(f_state,))
-        p1 = Process(target=rear_ultrasonic_detection, args=(r_state,))
-        p.start()
-        p1.start()
+        # p = Process(target=front_ultrasonic_detection, args=(f_state,))
+        # p1 = Process(target=rear_ultrasonic_detection, args=(r_state,))
+        # p.start()
+        # p1.start()
 
         asyncio.run(main())
     except KeyboardInterrupt:
-        p.terminate()
-        p1.terminate()
+        # p.terminate()
+        # p1.terminate()
         print("Cleaning up GPIO")
         GPIO.cleanup()
