@@ -18,7 +18,10 @@ def joystickToDiff(angle, distance, minJoystick, maxJoystick, minSpeed, maxSpeed
     termy1 = subtermy + v * twosqrt2;
     termy2 = subtermy - v * twosqrt2;
     sqx = math.sqrt(termx1)
-    sqy = math.sqrt(termx2)
+    try:
+        sqy = math.sqrt(termx2)
+    except:
+        return None, None
     x = 0.5 * sqx - 0.5 * sqy;
     # print(x)
     y = 0.5 * math.sqrt(termy1) - 0.5 * math.sqrt(termy2);
