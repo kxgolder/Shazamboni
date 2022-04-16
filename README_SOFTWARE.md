@@ -6,6 +6,8 @@ This is a documentation that describes how all of our software works. We detail 
 
 ## Table of Contents
 
+## Overview of Each Software Module
+
 ## Flow Charts
 
 ## Dev/Build Tool Information
