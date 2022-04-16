@@ -166,7 +166,7 @@
 
 1. Dave Mattar. (2017, January 29). Homemade Zamboni—Fast, easy, cheap. https://www.youtube.com/watch?v=ttbDFG-M8HE
 
-**This source gave use inspiration for making a more automated and advanced Zamboni.
+**This source gave use inspiration for making a more automated and advanced Zamboni.**
 
 2. How Zambonis Work. (2013, February 25). HowStuffWorks. https://science.howstuffworks.com/zamboni.htm
 
