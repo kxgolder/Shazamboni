@@ -54,8 +54,9 @@
 
 **Notes:** On the Electrical and Computer Engineer (henceforth referred as ECE) side of the project, they used Amazon as the sole vendor for all their purchased items. On the Mechanical Engineer (henceforth referred as ME) side of the project, they did not reference any specific vendors besides Amazon. The bill of materials for both are listed below. A link for more detailed information is included at the end of the sections
 
-### ECE Hardware
+### ECE Hardware Bill of Materials
 
+#### All Hardware Components
 | Item | Quantity/Description | Unit Price | Total Price |
 | --- | ----------- | ----------- | ----------- |
 | Motor Kit  | 1 Package | 12.99| **12.99** |
@@ -73,14 +74,34 @@
 | DC Converter | 1 DC Converter | 11.99| **11.99**|
 | **TOTAL PRICE (ECE)** | | | **398.19** |
 
-### ME Hardware
+### ME Hardware Bill of Materials
 
+#### Feasibility
+| Item | Quantity | Unit Price | Total Price |
+| --- | ----------- | ----------- | ----------- |
+|  |  | | |
+
+
+#### Chassis/Drive System
+| Item | Quantity | Unit Price | Total Price |
+| --- | ----------- | ----------- | ----------- |
+|  |  | | |
+
+
+#### Brushes
+| Item | Quantity | Unit Price | Total Price |
+| --- | ----------- | ----------- | ----------- |
+|  |  | | |
+
+
+#### Water Dispensing/Storage
 | Item | Quantity | Unit Price | Total Price |
 | --- | ----------- | ----------- | ----------- |
 |  |  | | |
 
 ### Links for more details
-
+* [ECE Full Bill of Materials](https://docs.google.com/spreadsheets/d/1dOb92htjslwmOOMava8AC0Ess3M7UXmO25NWhFuS7Wc/edit?usp=sharing).
+* [ME Full Bill of Materials](https://docs.google.com/spreadsheets/d/1R1Zin64dLP7bJb9QeGsinObtVFDHWOckvjZxHZ5VNsc/edit?usp=sharing).
 ## References
 
 ## Picture of System
