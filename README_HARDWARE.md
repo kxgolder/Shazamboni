@@ -199,7 +199,7 @@ Battery Life Calculator & Conversion Formula | Newark. (n.d.). Retrieved April 1
 
 9. Extended Syntax | Markdown Guide. (n.d.). Retrieved April 16, 2022, from https://www.markdownguide.org/extended-syntax/
 
- *I used this source to make the tables in the README_HARDWARE.md in our GitHub repository.*
+ **I used this source to make the tables in the README_HARDWARE.md in our GitHub repository.**
 
 ## Video of the Final System
 
