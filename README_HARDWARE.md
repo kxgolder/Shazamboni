@@ -162,8 +162,9 @@
 **Notes:** This section will look more like an annotated bibliography. It features the references both ECE and ME teams used in designing the hardware components of the Shazamboni.
 
 ### ECE References
+[^1]: Britannica. from https://www.britannica.com/topic/Amazoncom 
 
-1. [^1]:Amazon.com | History & Facts | Britannica. (n.d.). Retrieved April 16, 2022, from https://www.britannica.com/topic/Amazoncom
+1. Amazon.com | History & Facts | Britannica. (n.d.). Retrieved April 16, 2022, from https://www.britannica.com/topic/Amazoncom
 Battery Life Calculator & Conversion Formula | Newark. (n.d.). Retrieved April 16, 2022, from https://www.newark.com/battery-life-calculator
 
 2. How Zambonis Work. (2013, February 25). HowStuffWorks. https://science.howstuffworks.com/zamboni.htm
