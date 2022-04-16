@@ -159,7 +159,7 @@
 
 ## References and Resources
 
-**Notes:** This section will look more like an annotated bibliography. It features the references both ECE and ME teams used in designing the hardware components of the Shazamboni. Following the source is a small description explaining the source information and how we used it.
+**Notes:** This section will look more like an annotated bibliography. It features the references  ECE team used in designing the hardware components of the Shazamboni. Following the source is a small description explaining the source information and how we used it.
 
 ### ECE References
 [^1]: Britannica. from https://www.britannica.com/topic/Amazoncom 
@@ -200,8 +200,6 @@ Battery Life Calculator & Conversion Formula | Newark. (n.d.). Retrieved April 1
 9. Extended Syntax | Markdown Guide. (n.d.). Retrieved April 16, 2022, from https://www.markdownguide.org/extended-syntax/
 
  *I used this source to make the tables in the README_HARDWARE.md in our GitHub repository.*
-
-### ME References
 
 ## Video of the Final System
 
