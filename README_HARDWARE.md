@@ -139,7 +139,19 @@
 * [ME Full Bill of Materials](https://docs.google.com/spreadsheets/d/1R1Zin64dLP7bJb9QeGsinObtVFDHWOckvjZxHZ5VNsc/edit?usp=sharing).
 
 ## Power Requirements
-**Notes:** The Shazamboni uses a TalentCell 2000 Cycles Rechargeable 12V 24Ah 288Wh Lithium Iron Phosphate (LiFePO4) Deep Cycle Battery Pack (linked below). We calculated that the whole system will need approximately 16,000mAh for a four hour runtime.
+**Notes:** The Shazamboni uses a TalentCell 2000 Cycles Rechargeable 12V 24Ah 288Wh Lithium Iron Phosphate (LiFePO4) Deep Cycle Battery Pack (linked below). We calculated that the whole system will need approximately 22,000mAh (more precisely, 21520mAh) or about 22Ah. 
+
+### Power Consumption
+| Component | Quantity | Current (mA) | Total Current (ma) |
+| --- | ----------- | ----------- | ----------- |
+| Ultrasonic Sensor HC-SR04 | 2 | 15 | 30 |
+| DC Gear Motors (200RPM) | 4 | 600 | 2400 |
+| L298N Motor Driver | 1 | 36 | 36 |
+| Raspberry Pi 4B(BLE/WiFi) | 1 | <500-1000 | 1000 |
+| Arducam Camera | 1 | 300 | 300 |
+| **TOTAL:** ||| **3766 mA** |
+
+Battery Life = Battery Capacity (mAh) / Device Consumption (mA) * Consumption Rate
 
 ## References/Resources
 
