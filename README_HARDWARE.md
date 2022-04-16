@@ -2,14 +2,14 @@
 
 ## Table of Contents
 
-* [Schematics/CAD Diagrams](#schematics-CAD-diagrams)
+* [Schematics and CAD Diagrams](#schematics-and-CAD-diagrams)
 * [Vendor Information and Bill of Materials](#vendor-information-and-bill-of-materials)
 * [Power Requirements](#power-requirements)
 * [References and Resources](#references-and-resources)
 * [Video of the Final System](#video-of-the-final-system)
 * [Assembly of the Final System](#Assembly-of-the-final-system)
 
-## Schematics/CAD Diagrams
+## Schematics and CAD Diagrams
 
 **Notes:** This section includes all the diagrams we used in the form of schematics and CAD designs. We took inspiration from various sources linked in the reference section below. The schematic is a modified variant of an ultrasonic sensor schematic we used as a template in order to implement motor control and ultrasonic integration. Figure 1 represents the final circuit schematic of the electrical components of the Shazamboni, designed by Katie. Mei and her colleagues worked on the CAD designs seen in Figures 2-8. The CAD design focuses on the mechanical aspects of the Shazamboni for the electrical components would fit compactly in a black box featured on the front view or Figure 5. Finally, The CAD files for Figures 2-8 are listed below.
 
