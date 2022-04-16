@@ -59,11 +59,11 @@
 #### All Hardware Components
 | Item | Quantity/Description | Unit Price | Total Price |
 | --- | ----------- | ----------- | ----------- |
-| Motor Kit  | 1 Package | $12.99 | $12.99 |
+| Motor Kit | 1 Package | $12.99 | $12.99 |
 | Camera | 1 Camera | $9.99 | $9.99 |
 | Ultrasonic Sensors | 1 Package (4 Units) | $12.99 | $12.99|
-| 330Ω Resistor| 1 Package | $5.99 | $5.99 |
-| 470Ω Resistor | 1 Package | $5.99 | $5.99 |
+| 330Ω Resistors | 1 Package | $5.99 | $5.99 |
+| 470Ω Resistors | 1 Package | $5.99 | $5.99 |
 | Sunfounder Car Kit  | 1 Toy Car Kit  | $99.99 | $99.99 |
 | 18650 Rechargeable Batteries | 1 Package (6 Batteries) | $18.99 | $18.99 |
 | DC Motors 200RPM | 2 Motors | $11.88 |$23.76 |
@@ -121,13 +121,13 @@
 #### Water Dispensing/Storage
 | Item | Quantity | Unit Price | Total Price |
 | --- | ----------- | ----------- | ----------- |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
+| Zip Ties | 1 | $5.49 | $5.49 |
+| PVC 1/2 Elbows | 2 | $0.87 | $1.74 |
+| Water Jug | 2 | $17.86 | $35.72 |
+| L Brackets | 1 | $8.78 | $8.78 |
+| Al Angle Bar | 1 | $8.42 | $8.42 |
+| Al Flat Bar | 1 | $11.31 | $11.31 |
+| McMaster Piping | 1 | $21.05 | $21.05 |
 | **TOTAL** ||| **$92.51** |
 
  **TOTAL PRICE (ME) OVERALL: $539.19**
