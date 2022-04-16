@@ -132,7 +132,9 @@
 
  **TOTAL PRICE OVERALL: $539.19**
  
- **THE COMBINED TOTAL PRICE OF BOTH ECE AND ME BILL OF MATERIALS TOTALS $937.38.**
+ ### Combined Price
+ 
+ **THE COMBINED TOTAL PRICE OF BOTH ECE AND ME BILL OF MATERIALS: $937.38.**
 
 ### Links for more details
 * [ECE Full Bill of Materials](https://docs.google.com/spreadsheets/d/1dOb92htjslwmOOMava8AC0Ess3M7UXmO25NWhFuS7Wc/edit?usp=sharing).
