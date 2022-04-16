@@ -163,6 +163,25 @@
 
 ### ECE References
 
+1. [^1]:Amazon.com | History & Facts | Britannica. (n.d.). Retrieved April 16, 2022, from https://www.britannica.com/topic/Amazoncom
+Battery Life Calculator & Conversion Formula | Newark. (n.d.). Retrieved April 16, 2022, from https://www.newark.com/battery-life-calculator
+
+2. How Zambonis Work. (2013, February 25). HowStuffWorks. https://science.howstuffworks.com/zamboni.htm
+
+3. Inc, E. I. (n.d.). Backyard Ice Hockey Rinks – Best Home Ice Skating Rink Kits – EZ ICE. EZ ICE, Inc. Retrieved April 16, 2022, from https://ezicerinks.com/
+
+4. Maker Tutor. (2019, March 31). Raspberry Pi  How to Control a DC Motor With an L298N Driver. https://www.youtube.com/watch?v=2bganVdLg5Q
+
+5. Projects | Computer coding for kids and teens | Raspberry Pi. (n.d.). Retrieved April 16, 2022, from https://projects.raspberrypi.org/en/projects/physical-computing
+
+6. Team, P. (2021, April 14). How to configure Raspberry Pi in Ad hoc wifi mode. PyShine. https://py2ai.github.io//How-to-configure-Raspberry-Pi-in-Ad-hoc-wifi-mode/
+
+7. Using a Raspberry Pi distance sensor (ultrasonic sensor HC-SR04). (n.d.). Retrieved April 16, 2022, from https://tutorials-raspberrypi.com/raspberry-pi-ultrasonic-sensor-hc-sr04/
+
+8. Basic writing and formatting syntax. (n.d.). GitHub Docs. Retrieved April 16, 2022, from http://ghdocs-prod.azurewebsites.net:80/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+9. GitLab Flavored Markdown | GitLab. (n.d.). Retrieved April 16, 2022, from https://docs.gitlab.com/ee/user/markdown.html
+
 ### ME References
 
 ## Video of the Final System
