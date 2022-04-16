@@ -164,10 +164,9 @@
 ### ECE References
 [^1]: Britannica. from https://www.britannica.com/topic/Amazoncom 
 
-1. Amazon.com | History & Facts | Britannica. (n.d.). Retrieved April 16, 2022, from https://www.britannica.com/topic/Amazoncom
-Battery Life Calculator & Conversion Formula | Newark. (n.d.). Retrieved April 16, 2022, from https://www.newark.com/battery-life-calculator
+1. Dave Mattar. (2017, January 29). Homemade Zamboni—Fast, easy, cheap. https://www.youtube.com/watch?v=ttbDFG-M8HE
 
- **The source describes the company Amazon. It gives a brief description about our primary vendor.**
+**This source gave use inspiration for making a more automated and advanced Zamboni.
 
 2. How Zambonis Work. (2013, February 25). HowStuffWorks. https://science.howstuffworks.com/zamboni.htm
 
@@ -200,6 +199,11 @@ Battery Life Calculator & Conversion Formula | Newark. (n.d.). Retrieved April 1
 9. Extended Syntax | Markdown Guide. (n.d.). Retrieved April 16, 2022, from https://www.markdownguide.org/extended-syntax/
 
  **I used this source to make the tables in the README_HARDWARE.md in our GitHub repository.**
+ 
+10. Amazon.com | History & Facts | Britannica. (n.d.). Retrieved April 16, 2022, from https://www.britannica.com/topic/Amazoncom
+Battery Life Calculator & Conversion Formula | Newark. (n.d.). Retrieved April 16, 2022, from https://www.newark.com/battery-life-calculator
+
+ **The source describes the company Amazon. It gives a brief description about our primary vendor.**
 
 ## Video of the Final System
 
