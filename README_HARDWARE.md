@@ -58,20 +58,20 @@
 
 | Item | Quantity/Description | Unit Price | Total Price |
 | --- | ----------- | ----------- | ----------- |
-| Motor Kit  | 1 Package | 12.99| 12.99 |
-| Camera | 1 Camera | 9.99| 9.99 |
-| Ultrasonic Sensors | 1 Package (4 Units) | 12.99 | 12.99|
-| 330Ω Resistor| 1 Package | 5.99 | 5.99|
-| 470Ω Resistor | 1 Package | 5.99| 5.99 |
-| Sunfounder Car Kit  | 1 Toy Car Kit  | 99.99 | 99.99 |
-| 18650 Rechargeable Batteries | 1 Package (6 Batteries) | 18.99 | 18.99|
-| DC Motors 200RPM | 2 Motors |11.88 |23.76 |
-| DC Motors 300RPM | 2 Motors | 12.88| 25.76 |
-| Battery | 1 Battery | 137.99| 137.99|
-| Fuse | 1 Fuse | 9.88 | 9.88|
-| Jumper Wires | 1 Package | 8.99 | 8.99|
-| DC Converter | 1 DC Converter | 11.99| 11.99|
-| TOTAL PRICE (ECE) | 398.19 |
+| Motor Kit  | 1 Package | 12.99| **12.99** |
+| Camera | 1 Camera | 9.99| **9.99** |
+| Ultrasonic Sensors | 1 Package (4 Units) | 12.99 | **12.99**|
+| 330Ω Resistor| 1 Package | 5.99 | **5.99** |
+| 470Ω Resistor | 1 Package | 5.99| **5.99** |
+| Sunfounder Car Kit  | 1 Toy Car Kit  | 99.99 | **99.99** |
+| 18650 Rechargeable Batteries | 1 Package (6 Batteries) | 18.99 | **18.99** |
+| DC Motors 200RPM | 2 Motors |11.88 |**23.76** |
+| DC Motors 300RPM | 2 Motors | 12.88| **25.76** |
+| Battery | 1 Battery | 137.99| **137.99**|
+| Fuse | 1 Fuse | 9.88 | **9.88** |
+| Jumper Wires | 1 Package | 8.99 | **8.99** |
+| DC Converter | 1 DC Converter | 11.99| **11.99**|
+| **TOTAL PRICE (ECE)** | | | **398.19** |
 
 ### ME Hardware
 
