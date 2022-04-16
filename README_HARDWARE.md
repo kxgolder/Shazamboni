@@ -37,7 +37,7 @@
   
   *Figure 6. This is a rear view of the CAD model of the Shazamboni that the ME team designed.* 
   
-    <img width="657" alt="Left Side View" src="https://user-images.githubusercontent.com/82286857/163689886-617e3d29-7360-43d3-a76a-413880c2a788.png">
+  <img width="657" alt="Left Side View" src="https://user-images.githubusercontent.com/82286857/163690167-d9e82597-2591-4759-ad67-7d8252472ab8.png">
 
   *Figure 7. This is a left side view of the CAD model of the Shazamboni that the ME team designed.* 
   
