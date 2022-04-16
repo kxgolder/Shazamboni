@@ -4,9 +4,8 @@
 
 * [Schematics/CAD Diagrams](#schematics-CAD-diagrams)
 * [Vendor Information and Bill of Materials](#Vendor-Information-and-Bill-of-Materials)
-* [References](#references)
+* [References/Resources](#references-resources)
 * [Picture of System](#picture-of-system)
-* [Resources](#resources)
 * [Photographs of Final System](#Photographs-of-Final-System)
 
 ## Schematics/CAD Diagrams
@@ -138,15 +137,28 @@
 * [ECE Full Bill of Materials](https://docs.google.com/spreadsheets/d/1dOb92htjslwmOOMava8AC0Ess3M7UXmO25NWhFuS7Wc/edit?usp=sharing).
 * [ME Full Bill of Materials](https://docs.google.com/spreadsheets/d/1R1Zin64dLP7bJb9QeGsinObtVFDHWOckvjZxHZ5VNsc/edit?usp=sharing).
 
-## References
+## References/Resources
 
-## Picture of System
+**Notes:** This section will look more like an annotated bibliography. It features the references both ECE and ME teams used in designing the hardware components of the Shazamboni.
+
+### ECE References
+
+### ME References
+
+## Video of Final System
+
+**Notes:**
+
+## Photography of A System
+
+**Notes:** This section includes images and videos of the final product as we, the whole team assemble it. Overall, a neat and difficult project!
 
 ![System Design](https://user-images.githubusercontent.com/82286857/163691058-a36d7b14-951b-416c-a7b7-a9ab40527883.png)
 
  *Figure 9. This is a picture of the electrical system for the Shazamboni before black boxing.* 
+ 
 
+https://user-images.githubusercontent.com/82286857/163691820-ad39c8b6-a5cd-409c-bf78-44fe73596cb7.mov
 
-## Resources
+ * [Link to Motor Brushes](https://drive.google.com/file/d/1qQZXxKrH7iDjC1Q1cl_TkEh9IanfLARb/view?usp=sharing).
 
-## Photographs of Final System
