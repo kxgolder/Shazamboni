@@ -4,6 +4,7 @@
 
 * [Schematics/CAD Diagrams](#schematics-CAD-diagrams)
 * [Vendor Information and Bill of Materials](#vendor-information-and-bill-of-materials)
+* [Power Requirements](#power-requirements)
 * [References/Resources](#references-resources)
 * [Picture of System](#picture-of-system)
 * [Assembly of The Final System](#Assembly-of-final-system)
@@ -136,6 +137,10 @@
 ### Links for more details
 * [ECE Full Bill of Materials](https://docs.google.com/spreadsheets/d/1dOb92htjslwmOOMava8AC0Ess3M7UXmO25NWhFuS7Wc/edit?usp=sharing).
 * [ME Full Bill of Materials](https://docs.google.com/spreadsheets/d/1R1Zin64dLP7bJb9QeGsinObtVFDHWOckvjZxHZ5VNsc/edit?usp=sharing).
+
+## Power Requirements
+**Notes:** The Shazamboni uses a TalentCell 2000 Cycles Rechargeable 12V 24Ah 288Wh Lithium Iron Phosphate (LiFePO4) Deep Cycle Battery Pack (linked below). We calculated that the whole system will need approximately 16,000mAh for a four hour runtime.
+
 ## References/Resources
 
 **Notes:** This section will look more like an annotated bibliography. It features the references both ECE and ME teams used in designing the hardware components of the Shazamboni.
