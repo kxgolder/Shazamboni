@@ -136,7 +136,6 @@
 ### Links for more details
 * [ECE Full Bill of Materials](https://docs.google.com/spreadsheets/d/1dOb92htjslwmOOMava8AC0Ess3M7UXmO25NWhFuS7Wc/edit?usp=sharing).
 * [ME Full Bill of Materials](https://docs.google.com/spreadsheets/d/1R1Zin64dLP7bJb9QeGsinObtVFDHWOckvjZxHZ5VNsc/edit?usp=sharing).
-
 ## References/Resources
 
 **Notes:** This section will look more like an annotated bibliography. It features the references both ECE and ME teams used in designing the hardware components of the Shazamboni.
@@ -145,13 +144,13 @@
 
 ### ME References
 
-## Video of Final System
+## Video of The Final System
 
-**Notes:**
+**Notes:** This section shows images and a video of the final product as we, the whole team, demonstrate it for our client.
 
 ## Assembly of The Final System
 
-**Notes:** This section includes images and videos of the final product as we, the whole team assemble it. Overall, a neat and difficult project!
+**Notes:** This section includes images and videos of the final product as we, the whole team, assemble it. Overall, a neat and difficult project!
 
 ![System Design](https://user-images.githubusercontent.com/82286857/163691058-a36d7b14-951b-416c-a7b7-a9ab40527883.png)
 
