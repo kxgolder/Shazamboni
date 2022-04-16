@@ -178,6 +178,12 @@
 
  *Figure 9. This is a picture of the electrical system for the Shazamboni before black boxing.* 
  
+### Recharging the Shazamboni
+
+![520F4C57-234D-401E-BFED-4E0933E3EDFD](https://user-images.githubusercontent.com/82286857/163692915-57a69837-eae6-4843-b4f3-8f88acff9ed9.jpeg)
+
+ *Figure 10. This is a picture of an example car battery charger suitable for the Shazamboni.* 
+
 ### Motor Controls
  
  * [Link to Motor Brushes](https://drive.google.com/file/d/1qQZXxKrH7iDjC1Q1cl_TkEh9IanfLARb/view?usp=sharing).
