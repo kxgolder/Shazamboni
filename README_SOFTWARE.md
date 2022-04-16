@@ -15,6 +15,6 @@ This is a documentation that describes how all of our software works. The markdo
 
 ## Flow Charts
 
-## Dev and Build Tool Information
+## Dev/Build Tool Information
 
 ## Installation from Scratch
