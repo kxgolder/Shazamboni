@@ -1,4 +1,4 @@
-# Shazamboni
+# Shazamboni and ShazApp
 
  ## Executive Summary
 
