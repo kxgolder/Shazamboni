@@ -1,2 +1,9 @@
 # Hardware Report
 ## Schematics/CAD Diagrams
+### Schematics and CAD Diagrams
+### CAD files
+## Vendor Information and Bill of Materials
+## References
+## Picture of System
+## Resources
+## Photographs of Final System
