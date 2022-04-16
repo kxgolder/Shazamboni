@@ -102,9 +102,15 @@
 ### Links for more details
 * [ECE Full Bill of Materials](https://docs.google.com/spreadsheets/d/1dOb92htjslwmOOMava8AC0Ess3M7UXmO25NWhFuS7Wc/edit?usp=sharing).
 * [ME Full Bill of Materials](https://docs.google.com/spreadsheets/d/1R1Zin64dLP7bJb9QeGsinObtVFDHWOckvjZxHZ5VNsc/edit?usp=sharing).
+
 ## References
 
 ## Picture of System
+
+![System Design](https://user-images.githubusercontent.com/82286857/163691058-a36d7b14-951b-416c-a7b7-a9ab40527883.png)
+
+ *Figure 9. This is a picture of the electrical system for the Shazamboni before black boxing.* 
+
 
 ## Resources
 
