@@ -1,6 +1,7 @@
 # Hardware Report
 
 ## Table of Contents
+[Schematics/CAD Diagrams](#Schematics/CAD-Diagrams)
 
 ## Schematics/CAD Diagrams
 
