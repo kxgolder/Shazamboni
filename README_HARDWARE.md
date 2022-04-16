@@ -171,11 +171,14 @@
 
 ## Assembly of the Final System
 
-**Notes:** This section includes images and videos of the final product as we, the whole team, assemble it. Overall, a neat and difficult project!
+**Notes:** This section includes images and videos of the final product as we, the whole team, assemble it. In wiring the Shazamboni, one will see how we wired the device. In motors, one will see how we wired the motors and overall Shazamboni together. Finally, in the final photography section, one will see the finished product. Overall, a neat and difficult project!
 
+### Wiring the Shazamboni
 ![System Design](https://user-images.githubusercontent.com/82286857/163691058-a36d7b14-951b-416c-a7b7-a9ab40527883.png)
 
  *Figure 9. This is a picture of the electrical system for the Shazamboni before black boxing.* 
+ 
+### Motor Controls
  
  * [Link to Motor Brushes](https://drive.google.com/file/d/1qQZXxKrH7iDjC1Q1cl_TkEh9IanfLARb/view?usp=sharing).
 
