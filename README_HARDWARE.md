@@ -191,11 +191,11 @@ Battery Life Calculator & Conversion Formula | Newark. (n.d.). Retrieved April 1
 
 7. Basic writing and formatting syntax. (n.d.). GitHub Docs. Retrieved April 16, 2022, from http://ghdocs-prod.azurewebsites.net:80/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
-* *I used this source to make the README_HARDWARE.md in our GitHub repository. *
+* *I used this source to make the README_HARDWARE.md in our GitHub repository.*
 
 8. Extended Syntax | Markdown Guide. (n.d.). Retrieved April 16, 2022, from https://www.markdownguide.org/extended-syntax/
 
-* *I used this source to make the tables in the README_HARDWARE.md in our GitHub repository. *
+* *I used this source to make the tables in the README_HARDWARE.md in our GitHub repository.*
 
 
 ### ME References
