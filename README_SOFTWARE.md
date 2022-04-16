@@ -6,6 +6,11 @@ This is a documentation that describes how all of our software works. The markdo
 
 ## Table of Contents
 
+* [Overview of Each Software Module](#overview-of-each-software-module)
+* [Flow Charts](#flow-charts)
+* [Dev/Build Tool Information](#dev-/-build-tool-information)
+* [Installation from Scratch](#installation-from-scratch)
+
 ## Overview of Each Software Module
 
 ## Flow Charts
