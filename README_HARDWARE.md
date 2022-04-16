@@ -159,7 +159,7 @@
 
 ## References/Resources
 
-**Notes:** This section will look more like an annotated bibliography. It features the references both ECE and ME teams used in designing the hardware components of the Shazamboni.
+**Notes:** This section will look more like an annotated bibliography. It features the references both ECE and ME teams used in designing the hardware components of the Shazamboni. Following the source is a small description explaining the source information and how we used it.
 
 ### ECE References
 [^1]: Britannica. from https://www.britannica.com/topic/Amazoncom 
@@ -167,36 +167,39 @@
 1. Amazon.com | History & Facts | Britannica. (n.d.). Retrieved April 16, 2022, from https://www.britannica.com/topic/Amazoncom
 Battery Life Calculator & Conversion Formula | Newark. (n.d.). Retrieved April 16, 2022, from https://www.newark.com/battery-life-calculator
 
-* *The source describes the company Amazon. It gives a brief description about our primary vendor.*
+ **The source describes the company Amazon. It gives a brief description about our primary vendor.**
 
 2. How Zambonis Work. (2013, February 25). HowStuffWorks. https://science.howstuffworks.com/zamboni.htm
 
-* *We used this source to get a background about the Zamboni as a system as well as to get some ideas as to how to create an adequate ice re-surfacer.*
+ **We used this source to get a background about the Zamboni as a system as well as to get some ideas as to how to create an adequate ice re-surfacer.**
 
 3. Inc, E. I. (n.d.). Backyard Ice Hockey Rinks – Best Home Ice Skating Rink Kits – EZ ICE. EZ ICE, Inc. Retrieved April 16, 2022, from https://ezicerinks.com/
 
-* *The client recommended this source for us to get an idea as to the ice rink they use at home. It gave us information about the exact ice rink we needed to make an ice-resurfacer for.*
+ **The client recommended this source for us to get an idea as to the ice rink they use at home. It gave us information about the exact ice rink we needed to make an ice-resurfacer for.**
 
 4. Maker Tutor. (2019, March 31). Raspberry Pi  How to Control a DC Motor With an L298N Driver. https://www.youtube.com/watch?v=2bganVdLg5Q
 
-* *This source gave us a base code for making the motors of our Shazamboni work. We have made extensive modifications from this code since. It also taught us how to correctly implement the L298N motor driver with our HC-SR04 ultrasonic sensors and Raspberry Pi 4B.*
+ **This source gave us a base code for making the motors of our Shazamboni work. We have made extensive modifications from this code since. It also taught us how to correctly implement the L298N motor driver with our HC-SR04 ultrasonic sensors and Raspberry Pi 4B.**
 
 5. Raspberry Pi Documentation—Configuration. (n.d.). Retrieved April 16, 2022, from https://www.raspberrypi.com/documentation/computers/configuration.html
 
-* *This source gave us the guide for implementing our Ad-Hoc network successfully. Again, we have made extensive modifications from this code since.*
+ **This source gave us the guide for implementing our Ad-Hoc network successfully. Again, we have made extensive modifications from this code since.**
 
 6. Using a Raspberry Pi distance sensor (ultrasonic sensor HC-SR04). (n.d.). Retrieved April 16, 2022, from https://tutorials-raspberrypi.com/raspberry-pi-ultrasonic-sensor-hc-sr04/
 
-* *This source gave us the base tutorial and code for integrating our ultrasonic sensors. Again, we have made extensive modifications from this code since.*
+ **This source gave us the base tutorial and code for integrating our ultrasonic sensors. Again, we have made extensive modifications from this code since.**
 
-7. Basic writing and formatting syntax. (n.d.). GitHub Docs. Retrieved April 16, 2022, from http://ghdocs-prod.azurewebsites.net:80/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+7. Battery Life Calculator | Mouser. (n.d.). Retrieved April 16, 2022, from https://www.mouser.com/technical-resources/conversion-calculators/battery-life-calculator
 
-* *I used this source to make the README_HARDWARE.md in our GitHub repository.*
+ **This source gave us the calculations for finding battery consumption.**
 
-8. Extended Syntax | Markdown Guide. (n.d.). Retrieved April 16, 2022, from https://www.markdownguide.org/extended-syntax/
+8. Basic writing and formatting syntax. (n.d.). GitHub Docs. Retrieved April 16, 2022, from http://ghdocs-prod.azurewebsites.net:80/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
-* *I used this source to make the tables in the README_HARDWARE.md in our GitHub repository.*
+ **I used this source to make the README_HARDWARE.md in our GitHub repository.**
 
+9. Extended Syntax | Markdown Guide. (n.d.). Retrieved April 16, 2022, from https://www.markdownguide.org/extended-syntax/
+
+ *I used this source to make the tables in the README_HARDWARE.md in our GitHub repository.*
 
 ### ME References
 
