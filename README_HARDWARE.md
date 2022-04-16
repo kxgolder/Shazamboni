@@ -3,10 +3,10 @@
 ## Table of Contents
 
 * [Schematics/CAD Diagrams](#schematics-CAD-diagrams)
-* [Vendor Information and Bill of Materials](#Vendor-Information-and-Bill-of-Materials)
+* [Vendor Information and Bill of Materials](#vendor-information-and-bill-of-materials)
 * [References/Resources](#references-resources)
 * [Picture of System](#picture-of-system)
-* [Photographs of Final System](#Photographs-of-Final-System)
+* [Assembly of The Final System](#Assembly-of-final-system)
 
 ## Schematics/CAD Diagrams
 
@@ -149,7 +149,7 @@
 
 **Notes:**
 
-## Photography of A System
+## Assembly of The Final System
 
 **Notes:** This section includes images and videos of the final product as we, the whole team assemble it. Overall, a neat and difficult project!
 
@@ -157,8 +157,5 @@
 
  *Figure 9. This is a picture of the electrical system for the Shazamboni before black boxing.* 
  
-
-https://user-images.githubusercontent.com/82286857/163691820-ad39c8b6-a5cd-409c-bf78-44fe73596cb7.mov
-
  * [Link to Motor Brushes](https://drive.google.com/file/d/1qQZXxKrH7iDjC1Q1cl_TkEh9IanfLARb/view?usp=sharing).
 
