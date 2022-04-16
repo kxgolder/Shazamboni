@@ -153,7 +153,7 @@
 | Arducam Camera | 1 | 300 | 300 |
 | **TOTAL:** ||| **3766 mA** |
 
-Battery Life = Battery Capacity (mAh) / Device Consumption (mA) * Consumption Rate
+![Screen Shot 2022-04-16 at 5 45 36 PM](https://user-images.githubusercontent.com/82286857/163692272-653a86ee-3f03-42e9-8761-c36529ea8bfe.png)
 
 ## References/Resources
 
