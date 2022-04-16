@@ -10,13 +10,15 @@
 * [Photographs of Final System](#Photographs-of-Final-System)
 
 ## Schematics/CAD Diagrams
+
+### Schematics
 ![Schematic ](https://user-images.githubusercontent.com/82286857/163689717-6eb7aabc-d374-4855-812a-5d202461047c.jpeg)
 
  *Figure 1. This is a schematic of the wiring for the Shazamboni electrical hardware.* 
 
-### Schematics and CAD Diagrams
+### CAD Pictures
 
-### CAD files
+### CAD Files
 
 ## Vendor Information and Bill of Materials
 
