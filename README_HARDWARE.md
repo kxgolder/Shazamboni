@@ -6,7 +6,7 @@
 * [Vendor Information and Bill of Materials](#vendor-information-and-bill-of-materials)
 * [Power Requirements](#power-requirements)
 * [References and Resources](#references-and-resources)
-* [Video of the Final System](#video-of-theosystem)
+* [Video of the Final System](#video-of-the-final-system)
 * [Assembly of the Final System](#Assembly-of-the-final-system)
 
 ## Schematics/CAD Diagrams
