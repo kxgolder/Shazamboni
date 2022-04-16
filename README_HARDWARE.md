@@ -52,52 +52,85 @@
 
 ## Vendor Information and Bill of Materials
 
-**Notes:** On the Electrical and Computer Engineer (henceforth referred as ECE) side of the project, they used Amazon as the sole vendor for all their purchased items. On the Mechanical Engineer (henceforth referred as ME) side of the project, they did not reference any specific vendors besides Amazon. The bill of materials for both are listed below. A link for more detailed information is included at the end of the sections
+**Notes:** On the Electrical and Computer Engineer (henceforth referred as ECE) side of the project, they used **Amazon** as the sole vendor for all their purchased items. On the Mechanical Engineer (henceforth referred as ME) side of the project, they did not reference any specific vendors besides **Amazon**. The bill of materials for both are listed below. A link for more detailed information is included at the end of the sections
 
 ### ECE Hardware Bill of Materials
 
 #### All Hardware Components
 | Item | Quantity/Description | Unit Price | Total Price |
 | --- | ----------- | ----------- | ----------- |
-| Motor Kit  | 1 Package | 12.99| **12.99** |
-| Camera | 1 Camera | 9.99| **9.99** |
-| Ultrasonic Sensors | 1 Package (4 Units) | 12.99 | **12.99**|
-| 330Ω Resistor| 1 Package | 5.99 | **5.99** |
-| 470Ω Resistor | 1 Package | 5.99| **5.99** |
-| Sunfounder Car Kit  | 1 Toy Car Kit  | 99.99 | **99.99** |
-| 18650 Rechargeable Batteries | 1 Package (6 Batteries) | 18.99 | **18.99** |
-| DC Motors 200RPM | 2 Motors |11.88 |**23.76** |
-| DC Motors 300RPM | 2 Motors | 12.88| **25.76** |
-| Battery | 1 Battery | 137.99| **137.99**|
-| Fuse | 1 Fuse | 9.88 | **9.88** |
-| Jumper Wires | 1 Package | 8.99 | **8.99** |
-| DC Converter | 1 DC Converter | 11.99| **11.99**|
-| **TOTAL PRICE (ECE)** | | | **398.19** |
+| Motor Kit  | 1 Package | $12.99 | $12.99 |
+| Camera | 1 Camera | $9.99 | $9.99 |
+| Ultrasonic Sensors | 1 Package (4 Units) | $12.99 | $12.99|
+| 330Ω Resistor| 1 Package | $5.99 | $5.99 |
+| 470Ω Resistor | 1 Package | $5.99 | $5.99 |
+| Sunfounder Car Kit  | 1 Toy Car Kit  | $99.99 | $99.99 |
+| 18650 Rechargeable Batteries | 1 Package (6 Batteries) | $18.99 | $18.99 |
+| DC Motors 200RPM | 2 Motors | $11.88 |$23.76 |
+| DC Motors 300RPM | 2 Motors | $12.88| $25.76 |
+| Battery | 1 Battery | $137.99| $137.99 |
+| Fuse | 1 Fuse | $9.88 | $9.88 |
+| Jumper Wires | 1 Package | $8.99 | $8.99 |
+| DC Converter | 1 DC Converter | $11.99 | $11.99|
+| **TOTAL PRICE (ECE)** | | | **$398.19** |
 
 ### ME Hardware Bill of Materials
 
 #### Feasibility
 | Item | Quantity | Unit Price | Total Price |
 | --- | ----------- | ----------- | ----------- |
-|  |  | | |
-
+| PVC 3/4" T | 1 | $0.76 | $0.76 |
+| PVC 3/4" Valve | 1 | $2.98 | $2.98 |
+| PVC 3/4" M Adapter | 1 | $0.63 | $0.63 |
+| PVC 3/4" End Caps | 2 | $0.75 | $1.50 |
+| PVC cement | 1 | $12.34 | $12.34 |
+| Storage Box| 1 | $10.98 | $10.98 |
+| PVC 3/4" Pipe | 1 | $5.56 | $5.56 |
+| PVC 3/4" F adapter | 1 | $0.93 |$0.93 |
+| PVC 1/2 elbows| 2 | $0.87 | $1.74 |
+| **TOTAL** ||| **$37.42** |
 
 #### Chassis/Drive System
 | Item | Quantity | Unit Price | Total Price |
 | --- | ----------- | ----------- | ----------- |
-|  |  | | |
+| Cart | 1 | $54.99 | $54.99 |
+| Small Sprocket | 1 | $10.66 | $10.66 |
+| Aluminum | 1 | $60.26 | $60.26 |
+| Large Sprocket | 2 | $16.99 | $33.98 |
+| Drive Motor Bucket | 2 | $6.99 | $13.98 |
+| Axle Nuts | 1 | $8.99 | $8.99 |
+| 6" Wheels | 2 | $11.25 | $22.50 |
+| Pillow Blocks | 1 | $24.99 | $24.99 |
+| Axle Nute | 1 | $16.07 | $16.07 |
+| Shaft Collars | 1 | $12.88 | $12.88 |
+| Motor Brush | 2 | $10.72 | $21.44 |
+| Adapter Brush | 2 | $13.99 | $27.98 |
+| **TOTAL** ||| **$308.72** |
 
 
 #### Brushes
 | Item | Quantity | Unit Price | Total Price |
 | --- | ----------- | ----------- | ----------- |
-|  |  | | |
+| Brush Motors | 2 | $14.99 | $29.98 |
+| Brush Adapter | 1 | $12.99 | $12.99 |
+| Brush | 2 | $24.99 | $49.98 |
+| Brush Motor Adapter | 1 | $9.32 | $9.32 |
+| **TOTAL** ||| **$102.27** |
 
 
 #### Water Dispensing/Storage
 | Item | Quantity | Unit Price | Total Price |
 | --- | ----------- | ----------- | ----------- |
-|  |  | | |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+| **TOTAL** ||| **$92.51** |
+
+ **TOTAL PRICE (ME) OVERALL: $539.19**
 
 ### Links for more details
 * [ECE Full Bill of Materials](https://docs.google.com/spreadsheets/d/1dOb92htjslwmOOMava8AC0Ess3M7UXmO25NWhFuS7Wc/edit?usp=sharing).
