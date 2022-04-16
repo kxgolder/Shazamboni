@@ -6,8 +6,8 @@
 * [Vendor Information and Bill of Materials](#vendor-information-and-bill-of-materials)
 * [Power Requirements](#power-requirements)
 * [References/Resources](#references-resources)
-* [Video of The Final System](#picture-of-system)
-* [Assembly of The Final System](#Assembly-of-final-system)
+* [Video of the Final System](#picture-of-system)
+* [Assembly of the Final System](#Assembly-of-final-system)
 
 ## Schematics/CAD Diagrams
 
@@ -162,11 +162,11 @@
 
 ### ME References
 
-## Video of The Final System
+## Video of the Final System
 
 **Notes:** This section shows images and a video of the final product as we, the whole team, demonstrate it for our client.
 
-## Assembly of The Final System
+## Assembly of the Final System
 
 **Notes:** This section includes images and videos of the final product as we, the whole team, assemble it. Overall, a neat and difficult project!
 
