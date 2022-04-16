@@ -52,7 +52,7 @@
 
 ## Vendor Information and Bill of Materials
 
-**Notes:** On the Electrical and Computer Engineer (henceforth referred as ECE) side of the project, they used **Amazon** as the sole vendor for all their purchased items. On the Mechanical Engineer (henceforth referred as ME) side of the project, they did not reference any specific vendors besides **Amazon**. The bill of materials for both are listed below. A link for more detailed information is included at the end of the sections
+**Notes:** On the Electrical and Computer Engineer (henceforth referred as ECE) side of the project, they used **Amazon** as the sole vendor for all their purchased items. On the Mechanical Engineer (henceforth referred as ME) side of the project, they did not reference any specific vendors besides **Amazon**. The bill of materials for both are listed below. A link for more detailed information is included at the end of the sections. The total cost of all the materials both teams used comes to $937.38, which is out of a total budget of $2000 allocated for both teams.
 
 ### ECE Hardware Bill of Materials
 
@@ -72,7 +72,7 @@
 | Fuse | 1 Fuse | $9.88 | $9.88 |
 | Jumper Wires | 1 Package | $8.99 | $8.99 |
 | DC Converter | 1 DC Converter | $11.99 | $11.99|
-| **TOTAL PRICE (ECE)** | | | **$398.19** |
+| **TOTAL PRICE OVERALL:** | | | **$398.19** |
 
 ### ME Hardware Bill of Materials
 
@@ -88,7 +88,7 @@
 | PVC 3/4" Pipe | 1 | $5.56 | $5.56 |
 | PVC 3/4" F adapter | 1 | $0.93 |$0.93 |
 | PVC 1/2 elbows| 2 | $0.87 | $1.74 |
-| **TOTAL** ||| **$37.42** |
+| **TOTAL PRICE:** ||| **$37.42** |
 
 #### Chassis/Drive System
 | Item | Quantity | Unit Price | Total Price |
@@ -105,7 +105,7 @@
 | Shaft Collars | 1 | $12.88 | $12.88 |
 | Motor Brush | 2 | $10.72 | $21.44 |
 | Adapter Brush | 2 | $13.99 | $27.98 |
-| **TOTAL** ||| **$308.72** |
+| **TOTAL PRICE:** ||| **$308.72** |
 
 
 #### Brushes
@@ -115,7 +115,7 @@
 | Brush Adapter | 1 | $12.99 | $12.99 |
 | Brush | 2 | $24.99 | $49.98 |
 | Brush Motor Adapter | 1 | $9.32 | $9.32 |
-| **TOTAL** ||| **$102.27** |
+| **TOTAL PRICE:** ||| **$102.27** |
 
 
 #### Water Dispensing/Storage
@@ -128,9 +128,11 @@
 | Al Angle Bar | 1 | $8.42 | $8.42 |
 | Al Flat Bar | 1 | $11.31 | $11.31 |
 | McMaster Piping | 1 | $21.05 | $21.05 |
-| **TOTAL** ||| **$92.51** |
+| **TOTAL PRICE:** ||| **$92.51** |
 
- **TOTAL PRICE (ME) OVERALL: $539.19**
+ **TOTAL PRICE OVERALL: $539.19**
+ 
+ **THE COMBINED TOTAL PRICE OF BOTH ECE AND ME BILL OF MATERIALS TOTALS $937.38.**
 
 ### Links for more details
 * [ECE Full Bill of Materials](https://docs.google.com/spreadsheets/d/1dOb92htjslwmOOMava8AC0Ess3M7UXmO25NWhFuS7Wc/edit?usp=sharing).
