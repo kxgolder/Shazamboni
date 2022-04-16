@@ -52,14 +52,33 @@
 
 ## Vendor Information and Bill of Materials
 
-| Syntax | Description |
-| --- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+**Notes:** On the Electrical and Computer Engineer (henceforth referred as ECE) side of the project, they used Amazon as the sole vendor for all their purchased items. On the Mechanical Engineer (henceforth referred as ME) side of the project, they did not reference any specific vendors besides Amazon. The bill of materials for both are listed below. A link for more detailed information is included at the end of the sections
 
-### Electrical and Computer Engineer Hardware
+### ECE Hardware
 
-### Mechanical Engineer Hardware
+| Item | Quantity/Description | Unit Price | Total Price |
+| --- | ----------- | ----------- | ----------- |
+| Motor Kit  | 1 Package | 12.99| 12.99 |
+| Camera | 1 Camera | | |
+| Ultrasonic Sensors | 1 Package (4 Units) | | |
+| 330Ω Resistor| 1 Package | | |
+| 470Ω Resistor | 1 Package | | |
+| Sunfounder Car Kit  | 1 Toy Car Kit  | | |
+| 18650 Rechargeable Batteries | 1 Package (6 Batteries) | | |
+| DC Motors 200RPM | 2 Motors | | |
+| DC Motors 300RPM | 2 Motors | | |
+| Battery | 1 Battery | | |
+| Fuse | 1 Fuse | | |
+| Jumper Wires | 1 Package | | |
+| DC Converter | 1 DC Converter | | |
+
+### ME Hardware
+
+| Item | Quantity | Unit Price | Total Price |
+| --- | ----------- | ----------- | ----------- |
+|  |  | | |
+
+### Links for more details
 
 ## References
 
