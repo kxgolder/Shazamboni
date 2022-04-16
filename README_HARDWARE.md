@@ -49,7 +49,6 @@
   
 ### CAD Files
 
-
 ## Vendor Information and Bill of Materials
 
 **Notes:** On the Electrical and Computer Engineer (henceforth referred as ECE) side of the project, they used **Amazon** as the sole vendor for all their purchased items. On the Mechanical Engineer (henceforth referred as ME) side of the project, they did not reference any specific vendors besides **Amazon**. The bill of materials for both are listed below. A link for more detailed information is included at the end of the sections. The total cost of all the materials both teams used comes to $937.38, which is out of a total budget of $2000 allocated for both teams.
