@@ -5,9 +5,9 @@
 * [Schematics/CAD Diagrams](#schematics-CAD-diagrams)
 * [Vendor Information and Bill of Materials](#vendor-information-and-bill-of-materials)
 * [Power Requirements](#power-requirements)
-* [References/Resources](#references-resources)
-* [Video of the Final System](#picture-of-system)
-* [Assembly of the Final System](#Assembly-of-final-system)
+* [References and Resources](#references-and-resources)
+* [Video of the Final System](#video-of-theosystem)
+* [Assembly of the Final System](#Assembly-of-the-final-system)
 
 ## Schematics/CAD Diagrams
 
@@ -157,7 +157,7 @@
 
 ![Screen Shot 2022-04-16 at 5 45 36 PM](https://user-images.githubusercontent.com/82286857/163692272-653a86ee-3f03-42e9-8761-c36529ea8bfe.png)
 
-## References/Resources
+## References and Resources
 
 **Notes:** This section will look more like an annotated bibliography. It features the references both ECE and ME teams used in designing the hardware components of the Shazamboni. Following the source is a small description explaining the source information and how we used it.
 
