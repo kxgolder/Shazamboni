@@ -15,9 +15,12 @@ This GitHub details and features all the code for the project, backyard Zamboni 
 
 ## General Info
 
-This repository includes the code for the Shaz App and the motor/sensor controls. It also features the past attempts we have made in updating and reconfiguring our code to work with our final product. ultrasonic_distance.py and its variants are our atttempts at working on integrating the HC-SR04 ultrasonic sensors with our DC motors and Shaz App. l298n_dc.py controls the L298N motor driver and also are our atttempts at working on integrating the motor driver with the DC motors and Shaz App. Other files such as motor.py, robot.py, sender.py and so on are the final attempts of integrating all the pieces with Ad-Hoc networking, video streaming, and of course the motors and ultrasonic sensors.
+This repository includes the code for the Shaz App and the motor/sensor controls. It also features the past attempts we have made in updating and reconfiguring our code to work with our final product. LIST HERE THE CODE WE CURRENTLY USE.
+
+**Past Code:** ultrasonic_distance.py and its variants are our atttempts at working on integrating the HC-SR04 ultrasonic sensors with our DC motors and Shaz App. l298n_dc.py controls the L298N motor driver and also are our atttempts at working on integrating the motor driver with the DC motors and Shaz App. Other files such as motor.py, robot.py, sender.py and so on are the final attempts of integrating all the pieces with Ad-Hoc networking, video streaming, and of course the motors and ultrasonic sensors.
 
 ## Technologies
+
 We created this project with Flutter and Dart language, python scripts, websockets and an mjpg-streamer.  
 
 The Shaz App uses Flutter for controlling the Shazamboni. The Flutter Framework is a software development kit created by Google to help users develop UI software to create mobile applications. The programming language used to utilize Flutter Framework is Dart. Dart is a typed object-oriented language. 
@@ -42,7 +45,7 @@ The user will have access to the livestream and joystick controls when logged in
 
 ## Gotchas
 
-We spent time figuring out which componenets we could use.
+We spent time figuring out which components we could use. We figured that ultrasonic sensors would work fine enough but during testing we encountered some problems such as late detecting and non-detection of complex objects. We figured that using an ad hoc network would work best for the Shazamboni as it would solve the problem of Wi-Fi connectivity issues with the ShazApp and Shazamboni. Websockets would seemlessly send messages to the Shazamboni from the user's phone. Mjpg-streamers would work well with the camera we set up, seemlessly streaming video feed.
 
 ## Nota Bene
 
