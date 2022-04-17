@@ -152,7 +152,7 @@ This is a markdown file about all of the hardware both the Electrical and Comput
 ### Power Consumption
 | Component | Quantity | Current (mA) | Total Current (ma) |
 | --- | ----------- | ----------- | ----------- |
-| Ultrasonic Sensor HC-SR04 | 2 | 15 | 30 |
+| HC-SR04 Ultrasonic Sensor | 2 | 15 | 30 |
 | DC Gear Motors (200RPM) | 4 | 600 | 2400 |
 | L298N Motor Driver | 1 | 36 | 36 |
 | Raspberry Pi 4B(BLE/WiFi) | 1 | <500-1000 | 1000 |
