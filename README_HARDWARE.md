@@ -156,7 +156,7 @@ This is a markdown file about all of the hardware both the Electrical and Comput
 | DC Gear Motors (200RPM) | 4 | 600 | 2400 |
 | L298N Motor Driver | 1 | 36 | 36 |
 | Raspberry Pi 4B(BLE/WiFi) | 1 | <500-1000 | 1000 |
-| Arducam Camera | 1 | 300 | 300 |
+| Arducam OV5647 Mini Camera Module | 1 | 300 | 300 |
 | **TOTAL:** ||| **3766 mA** |
 
 ![Screen Shot 2022-04-16 at 5 45 36 PM](https://user-images.githubusercontent.com/82286857/163692272-653a86ee-3f03-42e9-8761-c36529ea8bfe.png)
@@ -217,16 +217,20 @@ Battery Life Calculator & Conversion Formula | Newark. (n.d.). Retrieved April 1
 
 **Notes:** This section includes images and videos of the final product as we, the whole team, assemble it. In wiring the Shazamboni, one will see how we wired the device. In motors, one will see how we wired the motors and overall Shazamboni together. Finally, in the final photography section, one will see the finished product. Overall, a neat and difficult project!
 
+### Camera Setup
+
+*Figure 9. This is the OV5647 Mini Camera Module for the Raspberry Pi from Arducam, attached to the Shazamboni.
+
 ### Wiring the Shazamboni
 ![System Design](https://user-images.githubusercontent.com/82286857/163691058-a36d7b14-951b-416c-a7b7-a9ab40527883.png)
 
- *Figure 9. This is a picture of the electrical system for the Shazamboni before black boxing.* 
+ *Figure 10. This is a picture of the electrical system for the Shazamboni before black boxing.* 
  
 ### Recharging the Shazamboni
 
 ![520F4C57-234D-401E-BFED-4E0933E3EDFD](https://user-images.githubusercontent.com/82286857/163692915-57a69837-eae6-4843-b4f3-8f88acff9ed9.jpeg)
 
- *Figure 10. This is a picture of an example car battery charger suitable for the Shazamboni.* 
+ *Figure 11. This is a picture of an example car battery charger suitable for the Shazamboni.* 
 
 ### Motor Controls
  
