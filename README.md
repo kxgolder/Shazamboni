@@ -17,6 +17,10 @@ This GitHub details and features all the code for the project, backyard Zamboni 
 
 This repository includes the code for the Shaz App and the motor/sensor controls. It also features the past attempts we have made in updating and reconfiguring our code to work with our final product. LIST HERE THE CODE WE CURRENTLY USE.
 
+**CAD Files:** Include pngs and CAD files of the Shazamboni itself.
+
+**Images File:** Include PDFs and images of the Shazamboni and Shaz App that we need to report.
+
 **Other Readme files:** Hardware and Software reports are filed under README_HARDWARE.md and README_SOFTWARE.md list more complete information about all the aspects of our project
 
 **Previous Reports:** These include our User’s Manual, Test Plans, and Test Reports.
