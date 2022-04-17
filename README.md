@@ -55,6 +55,7 @@ During testing with the ultrasonic sensors, we encountered some problems such as
 
 We have successfully completed all testing requirements and are in the process of installing the finishing touches and integrations with the ME team for our client. The Shazamboni and Shaz App work well together. ASK TEAM FOR THE CURRENT STATUS.
 
-## Acknowledgements
-App code is in: websockets_app
-Car controller is in: shaz_team
+## Acknowledgements and Team 10
+We express thanks to all the staff and TAs in the ECE and ME department, as well as our client. We personally thank professors Alan Pisano, Michael Hirsh, Osama Alshaykh, and William Hauser as well as our graduate senior member Shashwath Bharadwaj for their continued support and guidance. We also thank all the sources we used for developing this project. We thank Marianna Natale, Mei Singer, and Beau Walsh for their work on the ME team portion of the project. Finally, we thank our client, Alan D. Pisano Jr. for reaching out to us and supporting us throughout the project!
+
+Katharina Golder, Bryan Jaimes, Robert Ling, and Yanni Pang make the ECE team of Team 10 Shazamboni. Katharina and Robert are the electrical engineers, and Bryan and Yanni are the computer engineers on the team. In addition to the ECE team, there is also a mechanical engineering team working on the Shazamboni: Marianna Natale, Mei Singer, and Beau Walsh.
