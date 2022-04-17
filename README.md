@@ -45,11 +45,15 @@ The user will have access to the livestream and joystick controls when logged in
 
 ## Gotchas
 
-We spent time figuring out which components we could use. We figured that ultrasonic sensors would work fine enough but during testing we encountered some problems such as late detecting and non-detection of complex objects. We figured that using an ad hoc network would work best for the Shazamboni as it would solve the problem of Wi-Fi connectivity issues with the ShazApp and Shazamboni. Websockets would seemlessly send messages to the Shazamboni from the user's phone. Mjpg-streamers would work well with the camera we set up, seemlessly streaming video feed.
+We spent time figuring out which components we could use. We figured that ultrasonic sensors would work fine enough. We figured that using an ad hoc network would work best for the Shazamboni as it would solve the problem of Wi-Fi connectivity issues with the ShazApp and Shazamboni. Websockets would seemlessly send messages to the Shazamboni from the user's phone. Mjpg-streamers would work well with the camera we set up, seemlessly streaming video feed.
 
 ## Nota Bene
 
+During testing with the ultrasonic sensors, we encountered some problems such as late detecting and non-detection of complex objects. We advise people in the future to use LIDAR for better detection of objects. While we were successful in implementing an ad hoc network for our device and app, we found the task difficult in implementing. We advise thus to follow the reference featured in the Hardware Report by the letter for successful implementation of ad hoc networking. ASK TEAM FOR PROBLEMS THEY ENCOUNTERED.
+
 ## Current State
+
+We have successfully completed all testing requirements and are in the process of installing the finishing touches and integrations with the ME team for our client. The Shazamboni and Shaz App work well together. ASK TEAM FOR THE CURRENT STATUS.
 
 ## Acknowledgements
 App code is in: websockets_app
