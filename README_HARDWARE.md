@@ -2,7 +2,7 @@
 
 ## Summary
 
-This is a markdown file about all of the hardware both the Electrical and Computer Engineer (henceforth referred as ECE) and Mechanical Engineer (henceforth referred as ME) teams used in creating the Shazamboni. It features schematics, CAD diagrams, vendor and Bill of Materials, power requirements, references and a video and assembly of the final Shazamboni product.
+This is a markdown file about all of the hardware both the Electrical and Computer Engineer (henceforth referred as ECE) and Mechanical Engineer (henceforth referred as ME) teams used in creating the Shazamboni. It features schematics, CAD diagrams, vendor information and our bill of materials (BOM), power requirements, references and a video and assembly of the final Shazamboni product.
 
 ## Table of Contents
 
