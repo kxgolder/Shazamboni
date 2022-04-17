@@ -196,15 +196,18 @@ This is a markdown file about all of the hardware both the Electrical and Comput
 
  **This source gave us the calculations for finding battery consumption.**
 
-8. Basic writing and formatting syntax. (n.d.). GitHub Docs. Retrieved April 16, 2022, from http://ghdocs-prod.azurewebsites.net:80/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+8. Lee. (2022). Mjpg-streamer [C]. https://github.com/ArduCAM/mjpg-streamer (Original work published 2022)
+**This source gave us the tools and base code for a successful implementation of video streaming for the Arducam OV5647 Mini Camera Module.**
+
+9. Basic writing and formatting syntax. (n.d.). GitHub Docs. Retrieved April 16, 2022, from http://ghdocs-prod.azurewebsites.net:80/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
  **I used this source to make the README_HARDWARE.md in our GitHub repository.**
 
-9. Extended Syntax | Markdown Guide. (n.d.). Retrieved April 16, 2022, from https://www.markdownguide.org/extended-syntax/
+10. Extended Syntax | Markdown Guide. (n.d.). Retrieved April 16, 2022, from https://www.markdownguide.org/extended-syntax/
 
  **I used this source to make the tables in the README_HARDWARE.md in our GitHub repository.**
  
-10. Amazon.com | History & Facts | Britannica. (n.d.). Retrieved April 16, 2022, from https://www.britannica.com/topic/Amazoncom
+11. Amazon.com | History & Facts | Britannica. (n.d.). Retrieved April 16, 2022, from https://www.britannica.com/topic/Amazoncom
 Battery Life Calculator & Conversion Formula | Newark. (n.d.). Retrieved April 16, 2022, from https://www.newark.com/battery-life-calculator
 
  **The source describes the company Amazon. It gives a brief description about our primary vendor.**
