@@ -17,6 +17,10 @@ This GitHub details and features all the code for the project, backyard Zamboni 
 
 This repository includes the code for the Shaz App and the motor/sensor controls. It also features the past attempts we have made in updating and reconfiguring our code to work with our final product. LIST HERE THE CODE WE CURRENTLY USE.
 
+**Other Readme files:** Hardware and Software reports are filed under README_HARDWARE.md and README_SOFTWARE.md list more complete information about all the aspects of our project
+
+**Previous Reports:** These include our User’s Manual, Test Plans, and Test Reports.
+
 **Past Code:** ultrasonic_distance.py and its variants are our atttempts at working on integrating the HC-SR04 ultrasonic sensors with our DC motors and Shaz App. l298n_dc.py controls the L298N motor driver and also are our atttempts at working on integrating the motor driver with the DC motors and Shaz App. Other files such as motor.py, robot.py, sender.py and so on are the final attempts of integrating all the pieces with Ad-Hoc networking, video streaming, and of course the motors and ultrasonic sensors.
 
 ## Technologies
