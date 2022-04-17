@@ -14,8 +14,8 @@ This GitHub details and features all the code for the project, backyard Zamboni 
 * [Acknowledgements](#acknowledgements)
 
 ## General Info
-The project Shazamboni is a remote-controlled ice surfacer that efficiently scrapes the ice of a backyard ice rink without requiring significant labor.
-This repository will include the code for the App and the motor/sensor controls.
+
+This repository includes the code for the App and the motor/sensor controls. It also features the past attempts we have made in updating and reconfiguring our code to work with our final product. ultrasonic_distance.py and its variants are our atttempts at working on integrating the HC-SR04 ultrasonic sensors with our DC motors and ShazApp. l298n_dc.py controls the L298N motor driver and also are our atttempts at working on integrating the motor driver with the DC motors and ShazApp. Other files such as motor.py, robot.py, sender.py and so on are the final attempts of integrating all the pieces with Ad-Hoc networking, video streaming, and of course the motors and ultrasonic sensors.
 
 ## Technologies
 Project is created with:
