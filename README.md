@@ -1,11 +1,12 @@
 # Engineering Addendum
 
- ## Summary: Shazamboni and ShazApp
+ ## Summary: Shazamboni and Shaz App
 
 This GitHub details and features all the code for the project, backyard Zamboni or Shazamboni/Shaz App, a device and smartphone application, respectively. The main project features a remote-controlled ice surfacer that efficiently scrapes the ice of a backyard ice rink without requiring significant labor. The Shaz App controls the Shazamboni device. Katharina Golder, Bryan Jaimes, Robert Ling, & Yanni Pang, members of team 10, started and maintained this project. We created this GitHub repository for the course EC463/464 ECE Senior Design at Boston University.This specific Readme will outline the general information of the project, technologies we used, setup, our gotchas of this project,  types of things to look out for, and finally the current state of the project. 
 
 ## Table of Contents
 * [General Info](#general-info)
+* [Important Sections](#important-sections)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Gotchas](#gotchas)
@@ -17,7 +18,7 @@ This GitHub details and features all the code for the project, backyard Zamboni 
 
 This repository includes the code for the Shaz App and the motor/sensor controls. It also features the past attempts we have made in updating and reconfiguring our code to work with our final product. LIST HERE THE CODE WE CURRENTLY USE.
 
-### Other Important Sections
+## Important Sections
 
 **CAD Folder:** Include pngs and CAD files of the Shazamboni itself.
 
