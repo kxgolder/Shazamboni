@@ -13,18 +13,18 @@ This GitHub details and features all the code for the project, backyard Zamboni 
 * [Nota Bene](#nota-bene)
 * [Current State](#current-state)
 * [Acknowledgements](#acknowledgements)
-
+* [Credits](#credits)
 ## General Info
 
 This repository includes the code for the Shaz App and the motor/sensor controls. It also features the past attempts we have made in updating and reconfiguring our code to work with our final product. LIST HERE THE CODE WE CURRENTLY USE.
 
 ## Important Sections
 
-**CAD Folder:** Include pngs and CAD files of the Shazamboni itself.
+**CAD Folder:** This includes pngs and CAD files of the Shazamboni itself.
 
-**Images Folder:** Include PDFs and images of the Shazamboni and Shaz App that we need to report.
+**Images Folder:** This includes PDFs and images of the Shazamboni and Shaz App.
 
-**Other Readme files:** Hardware and Software reports are filed under README_HARDWARE.md and README_SOFTWARE.md list more complete information about all the aspects of our project
+**Other Readme files:** Hardware and Software reports are filed under README_HARDWARE.md and README_SOFTWARE.md list more complete information about all the aspects of our project.
 
 **Reports Folder:** This folder include our past reports: *The User’s Manual,*  *Test Plans,* and *Test Reports*.
 
@@ -69,4 +69,5 @@ We have successfully completed all testing requirements and are in the process o
 ## Acknowledgements
 We express thanks to all the staff and TAs in the ECE and ME department at Boston University, as well as our client. We personally thank professors Alan Pisano, Michael Hirsh, Osama Alshaykh, and William Hauser as well as our graduate senior member Shashwath Bharadwaj for their continued support and guidance. We also thank all the sources we used for developing this project. We thank Marianna Natale, Mei Singer, and Beau Walsh for their work on the ME team portion of the project. Finally, we thank our client, Alan D. Pisano Jr. for reaching out to us and supporting us throughout the project!
 
+## Credits
 Katharina Golder, Bryan Jaimes, Robert Ling, and Yanni Pang make the ECE team of Team 10 Shazamboni. Katharina and Robert are the electrical engineers, and Bryan and Yanni are the computer engineers on the team. In addition to the ECE team, there is also a mechanical engineering team working on the Shazamboni: Marianna Natale, Mei Singer, and Beau Walsh.
