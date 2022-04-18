@@ -61,7 +61,7 @@ Check the GitHub repository for the files.
 
 ### Vendor Information
 
-**Amazon** - Amazon.com is a vast Internet-based enterprise that sells books, music, movies, housewares, electronics, toys, and many other goods, either directly or as the middleman between other retailers and Amazon.com’s millions of customers. Its Web services business includes renting data storage and computing resources, so-called “cloud computing,” over the Internet. Its considerable online presence is such that, in 2012, 1 percent of all Internet traffic in North America traveled in and out of Amazon.com data centres (sic).[^1]
+**Amazon** - Amazon.com is a vast Internet-based enterprise that sells books, music, movies, housewares, electronics, toys, and many other goods, either directly or as the middleman between other retailers and Amazon.com’s millions of customers. Its Web services business includes renting data storage and computing resources, so-called “cloud computing,” over the Internet. Its considerable online presence is such that, in 2012, 1 percent of all Internet traffic in North America traveled in and out of Amazon.com data centres.[^1]
 
 
 ### ECE Hardware Bill of Materials
