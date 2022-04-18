@@ -59,7 +59,9 @@ Check the GitHub repository for the files.
 
 **Notes:** On the ECE side of the project, they used **Amazon** as the sole vendor for all their purchased items. On the ME side of the project, they did not reference any specific vendors besides **Amazon**. The bill of materials for both teams are listed below. A link for more detailed information is included at the end of the sections. The total cost of all the materials both teams used comes to $937.38, which is out of a total budget of $2000 ($1000 provided by Boston University ECE and ME departments) allocated for both teams.
 
-**Amazon** - Amazon.com is a vast Internet-based enterprise that sells books, music, movies, housewares, electronics, toys, and many other goods, either directly or as the middleman between other retailers and Amazon.com’s millions of customers. Its Web services business includes renting data storage and computing resources, so-called “cloud computing,” over the Internet. Its considerable online presence is such that, in 2012, 1 percent of all Internet traffic in North America traveled in and out of Amazon.com data centres [^1].
+### Vendor Information
+
+**Amazon** - Amazon.com is a vast Internet-based enterprise that sells books, music, movies, housewares, electronics, toys, and many other goods, either directly or as the middleman between other retailers and Amazon.com’s millions of customers. Its Web services business includes renting data storage and computing resources, so-called “cloud computing,” over the Internet. Its considerable online presence is such that, in 2012, 1 percent of all Internet traffic in North America traveled in and out of Amazon.com data centres (sic).[^1]
 
 
 ### ECE Hardware Bill of Materials
