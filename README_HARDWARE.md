@@ -57,7 +57,7 @@ Check the GitHub repository for the files.
 
 ## Vendor Information and Bill of Materials
 
-**Notes:** On the ECE side of the project, they used **Amazon** as the sole vendor for all their purchased items. On the ME side of the project, they did not reference any specific vendors besides **Amazon**. The bill of materials for both teams are listed below. A link for more detailed information is included at the end of the sections. The total cost of all the materials both teams used comes to $937.38, which is out of a total budget of $2000 ($1000 provided by Boston University ECE and ME departments) allocated for both teams.
+**Notes:** On the ECE side of the project, the ECE team used **Amazon** as the sole vendor for all their purchased items. On the ME side of the project, the ME team did not reference any specific vendors besides **Amazon**. The bill of materials for both teams are listed below. A link for more detailed information is included at the end of the sections. The total cost of all the materials both teams used comes to $937.38, which is out of a total budget of $2000 ($1000 provided by Boston University ECE and ME departments) allocated for both teams.
 
 ### Vendor Information
 
