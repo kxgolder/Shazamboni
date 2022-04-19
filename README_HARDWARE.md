@@ -213,7 +213,6 @@ Check the GitHub repository for the files.
  **I used this source to make the tables in the README_HARDWARE.md in our GitHub repository.**
  
 11. Amazon.com | History & Facts | Britannica. (n.d.). Retrieved April 16, 2022, from https://www.britannica.com/topic/Amazoncom
-Battery Life Calculator & Conversion Formula | Newark. (n.d.). Retrieved April 16, 2022, from https://www.newark.com/battery-life-calculator
 
  **The source describes the company Amazon. It gives a brief description about our primary vendor.**
 
