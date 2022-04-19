@@ -20,6 +20,8 @@ This repository includes the code for the Shaz App and the motor/sensor controls
 
 ## Important Sections
 
+### Folders
+
 **CAD Folder:** This includes images and a CAD file (Full Assembly Drawing 1 (1).dwg) of the Shazamboni itself.
 
 **Images Folder:** This includes PDFs and images of the Shazamboni and Shaz App.
@@ -28,7 +30,11 @@ This repository includes the code for the Shaz App and the motor/sensor controls
 
 **Reports Folder:** This folder include our past reports: *The User’s Manual,*  *Test Plans,* and *Test Reports*.
 
-**Past Code:** ultrasonic_distance.py and its variants are our atttempts at working on integrating the HC-SR04 ultrasonic sensors with our DC motors and Shaz App. l298n_dc.py controls the L298N motor driver and also are our atttempts at working on integrating the motor driver with the DC motors and Shaz App. Other files such as motor.py, robot.py, sender.py and so on are the final attempts of integrating all the pieces with Ad-Hoc networking, video streaming, and of course the motors and ultrasonic sensors.
+**Past Code Folder:** ultrasonic_distance.py and its variants are our atttempts at working on integrating the HC-SR04 ultrasonic sensors with our DC motors and Shaz App. l298n_dc.py controls the L298N motor driver and also are our atttempts at working on integrating the motor driver with the DC motors and Shaz App. Other files such as motor.py, robot.py, sender.py and so on are the final attempts of integrating all the pieces with Ad-Hoc networking, video streaming, and of course the motors and ultrasonic sensors.
+
+### Branches
+
+The Shaz_tream branch contains our Flutter application code. Though we have moved all the relevant code for operational use of the Shazamboni and Shaz App to our main branch.
 
 ## Technologies
 
