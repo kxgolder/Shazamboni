@@ -225,20 +225,24 @@ https://cad.onshape.com/documents/e44334abe83648b59376c2f0/w/ce9bee7bc446a3097db
 
 **Notes:** This section includes images and videos of the final product as we, the whole team, assemble it. In wiring the Shazamboni, one will see how we wired the device. In motors, one will see how we wired the motors and overall Shazamboni together. Finally, in the final photography section, one will see the finished product. Overall, a neat and difficult project!
 
-### Camera Setup
+### Ultrasonic Sensors Setup and Camera Setup
 
-*Figure 9. This is the OV5647 Mini Camera Module for the Raspberry Pi from Arducam, attached to the Shazamboni.
+![Back Ultrasonic Sensor](https://user-images.githubusercontent.com/82286857/164064081-f3d85554-5652-47c0-9e5b-91214b2e76ca.jpeg)
+
+![Front Ultrasonic Sensor and Camera](https://user-images.githubusercontent.com/82286857/164064335-5114e9fb-ae6a-47f4-a11c-1705736b61b0.jpeg)
+
+*Figures 9-10. We attached the HC-SR04 Ultrasonic Sensors to the back and front as seen in Figures 9-10, respectively. We also have the Arducam OV5647 Mini Camera Module attached to the front.*
 
 ### Wiring the Shazamboni
 ![System Design](https://user-images.githubusercontent.com/82286857/163691058-a36d7b14-951b-416c-a7b7-a9ab40527883.png)
 
- *Figure 10. This is a picture of the electrical system for the Shazamboni before black boxing.* 
+ *Figure 11. This is a picture of the electrical system for the Shazamboni before black boxing.* 
  
 ### Recharging the Shazamboni
 
-![520F4C57-234D-401E-BFED-4E0933E3EDFD](https://user-images.githubusercontent.com/82286857/163692915-57a69837-eae6-4843-b4f3-8f88acff9ed9.jpeg)
+![Car Battery](https://user-images.githubusercontent.com/82286857/163692915-57a69837-eae6-4843-b4f3-8f88acff9ed9.jpeg)
 
- *Figure 11. This is a picture of an example car battery charger suitable for the Shazamboni. We used the NOCO Genius 1 car charger for our testing purposes.* 
+ *Figure 13. This is a picture of an example car battery charger suitable for the Shazamboni. We used the NOCO Genius 1 car charger for our testing purposes.* 
 
 ### Motor Controls
  
