@@ -23,6 +23,8 @@ This is a documentation that describes how all of our software works. The markdo
 
 *Figure 2. Ditto, with a focus on the software components overall.*
 
+*Figure 3. Ditto, with the specific code and function for each software module.*
+
 ## Dev and Build Tool Information
 
 ## Installation from Scratch
