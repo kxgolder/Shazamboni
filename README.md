@@ -20,7 +20,7 @@ This repository includes the code for the Shaz App and the motor/sensor controls
 
 ## Important Sections
 
-**CAD Folder:** This includes pngs and CAD files of the Shazamboni itself.
+**CAD Folder:** This includes images and a CAD file (Full Assembly Drawing 1 (1).dwg) of the Shazamboni itself.
 
 **Images Folder:** This includes PDFs and images of the Shazamboni and Shaz App.
 
