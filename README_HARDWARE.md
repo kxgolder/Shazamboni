@@ -248,3 +248,7 @@ https://cad.onshape.com/documents/e44334abe83648b59376c2f0/w/ce9bee7bc446a3097db
  
  * [Link to Motor Brushes](https://drive.google.com/file/d/1qQZXxKrH7iDjC1Q1cl_TkEh9IanfLARb/view?usp=sharing).
 
+![Left Motor](https://user-images.githubusercontent.com/82286857/164064851-ceed69b1-50b8-41b5-af81-2c1b27d24f87.jpeg)
+![Right Motor](https://user-images.githubusercontent.com/82286857/164064873-0bdf3bd6-5cc2-4e80-883c-e610c1fff676.jpeg)
+
+ *Figures 14-15. These images show our setup of the DC motors (left and right motors, respectively) we set up for the ME team to test their wheels.* 
