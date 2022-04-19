@@ -265,8 +265,8 @@ https://cad.onshape.com/documents/e44334abe83648b59376c2f0/w/ce9bee7bc446a3097db
   
   ### Switch
   
-  ![Switch](https://user-images.githubusercontent.com/82286857/164105906-ee1880f2-49da-40b8-bb5b-e0ed6d37615f.jpeg)
-  
+  ![Switch Shazamboni](https://user-images.githubusercontent.com/82286857/164106176-7e3a6bbf-64a2-4934-818a-f07eee7bc10d.jpeg)
+
   *Figure 18. A switch for toggling.* 
 
 
