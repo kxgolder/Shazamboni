@@ -238,7 +238,7 @@ https://cad.onshape.com/documents/e44334abe83648b59376c2f0/w/ce9bee7bc446a3097db
 
 ![520F4C57-234D-401E-BFED-4E0933E3EDFD](https://user-images.githubusercontent.com/82286857/163692915-57a69837-eae6-4843-b4f3-8f88acff9ed9.jpeg)
 
- *Figure 11. This is a picture of an example car battery charger suitable for the Shazamboni.* 
+ *Figure 11. This is a picture of an example car battery charger suitable for the Shazamboni. We used the NOCO Genius 1 car charger for our testing purposes.* 
 
 ### Motor Controls
  
