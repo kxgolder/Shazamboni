@@ -53,7 +53,8 @@ This is a markdown file about all of the hardware both the Electrical and Comput
   
 ### CAD Files
 
-Check the GitHub repository for the files.
+Check the GitHub repository for the files. In addition, the ME team provided us with a link to their actual CAD file listed below:
+https://cad.onshape.com/documents/e44334abe83648b59376c2f0/w/ce9bee7bc446a3097dbfaa24/e/03f997488604f520964b69b2
 
 ## Vendor Information and Bill of Materials
 
