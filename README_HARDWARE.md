@@ -244,23 +244,29 @@ https://cad.onshape.com/documents/e44334abe83648b59376c2f0/w/ce9bee7bc446a3097db
 
  *Figure 13. This is a picture of an example car battery charger suitable for the Shazamboni. We used the NOCO Genius 1 car charger for our testing purposes.* 
 
-### Motor Controls
+### Brushes and Motor Controls
  
  * [Link to Motor Brushes](https://drive.google.com/file/d/1qQZXxKrH7iDjC1Q1cl_TkEh9IanfLARb/view?usp=sharing).
+
+![Motor Brush](https://user-images.githubusercontent.com/82286857/164105886-cefe698b-1c10-4c63-bbec-e18b0ba52079.jpeg)
+
+ *Figures 14. The ME team's motor brush.* 
 
 ![Left Motor](https://user-images.githubusercontent.com/82286857/164064851-ceed69b1-50b8-41b5-af81-2c1b27d24f87.jpeg)
 ![Right Motor](https://user-images.githubusercontent.com/82286857/164064873-0bdf3bd6-5cc2-4e80-883c-e610c1fff676.jpeg)
 
- *Figures 14-15. These images show our setup of the DC motors (left and right motors, respectively) we set up for the ME team to test their wheels.* 
+ *Figures 15-16. These images show our setup of the DC motors (left and right motors, respectively) we set up for the ME team to test their wheels.* 
  
  ### Bread Board
  
  ![Breadboard Circuit New](https://user-images.githubusercontent.com/82286857/164102818-3a758695-4fc7-4a93-b18b-f3717026e765.jpeg)
 
-  *Figure 16. This features our bread board circuitry for the Shazamboni.* 
+  *Figure 17. This features our bread board circuitry for the Shazamboni.* 
   
   ### Switch
   
-  *Figure 17. A switch for toggling.* 
+  ![Switch](https://user-images.githubusercontent.com/82286857/164105906-ee1880f2-49da-40b8-bb5b-e0ed6d37615f.jpeg)
+  
+  *Figure 18. A switch for toggling.* 
 
 
