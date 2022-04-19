@@ -19,6 +19,10 @@ This is a documentation that describes how all of our software works. The markdo
 
 *Figure 1. The system overview diagram of the Shazamboni. The blocks shaded in blue are the software components, and the blocks shaded in orange are the hardware components of the system.*
 
+![Software General Flowchart](https://user-images.githubusercontent.com/82286857/164093693-2c99a6de-b5be-484c-8bbf-dfa34e5e73d7.png)
+
+*Figure 2. Ditto, with a focus on the software components overall.*
+
 ## Dev and Build Tool Information
 
 ## Installation from Scratch
