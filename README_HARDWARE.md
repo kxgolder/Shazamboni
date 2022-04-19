@@ -252,3 +252,15 @@ https://cad.onshape.com/documents/e44334abe83648b59376c2f0/w/ce9bee7bc446a3097db
 ![Right Motor](https://user-images.githubusercontent.com/82286857/164064873-0bdf3bd6-5cc2-4e80-883c-e610c1fff676.jpeg)
 
  *Figures 14-15. These images show our setup of the DC motors (left and right motors, respectively) we set up for the ME team to test their wheels.* 
+ 
+ ### Bread Board
+ 
+ ![Breadboard Circuit New](https://user-images.githubusercontent.com/82286857/164102818-3a758695-4fc7-4a93-b18b-f3717026e765.jpeg)
+
+  *Figure 16. This features our bread board circuitry for the Shazamboni.* 
+  
+  ### Switch
+  
+  *Figure 17. A switch for toggling.* 
+
+
