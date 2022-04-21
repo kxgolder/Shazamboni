@@ -14,7 +14,7 @@ This GitHub repository features all the code, reports, and relevant images integ
 * [Current State](#current-state)
 * [Acknowledgements](#acknowledgements)
 * [Credits](#credits)
-* 
+
 ## General Info
 
 This repository includes the code for the Shaz App and the motor/sensor controls. It features our main branch with all the code we currently use as well as branches that separate each portion of the scripts for faster use. It also features the past attempts we have made in updating and reconfiguring our code to work with our final product as well as reports and images of the Shazamboni/Shaz App.
