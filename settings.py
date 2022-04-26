@@ -8,8 +8,8 @@ L_IN_2 = 19
 L_EN = 13
 
 # Right Motor Pins
-R_IN_1 = 20
-R_IN_2 = 16
+R_IN_1 = 16
+R_IN_2 = 20
 R_EN = 12
 
 # PWM Frequency

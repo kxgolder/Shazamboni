@@ -6,8 +6,8 @@ import time
 GPIO.setmode(GPIO.BCM)
  
 #set GPIO Pins
-GPIO_TRIGGER = 18
-GPIO_ECHO = 24
+GPIO_TRIGGER = 22
+GPIO_ECHO = 23
 GPIO_TRIGGER_2 = 22 # Pin 19 for Pi4 
 GPIO_ECHO_2 = 23
 
@@ -92,10 +92,10 @@ if __name__ == '__main__':
     try:
         while True:
             dist  = distance()
-            dist2 = distance2()
+#            dist2 = distance2()
             
             print ("Measured Distance = %.1f cm" % dist)
-            print ("Measured Distance 2 = %.1f cm" % dist2)
+#            print ("Measured Distance 2 = %.1f cm" % dist2)
             
             time.sleep(1)
  
