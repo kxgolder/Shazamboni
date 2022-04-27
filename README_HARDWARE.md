@@ -217,6 +217,10 @@ https://cad.onshape.com/documents/e44334abe83648b59376c2f0/w/ce9bee7bc446a3097db
 
  **The source describes the company Amazon. It gives a brief description about our primary vendor.**
 
+12. https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommunity.element14.com%2Fproducts%2Fraspberry-pi%2Fw%2Fdocuments%2F4317%2Fraspberry-pi-4-model-b-default-gpio-pinout-with-poe-header&psig=AOvVaw25X2oc2LSag1cMRljg3tCR&ust=1651182262812000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKjZ_bObtfcCFQAAAAAdAAAAABAN
+
+ **This is the Pinout of the Pi we used.**
+
 ## Video of the Final System
 
 **Notes:** This section shows images and a video of the final product as we, the whole team, demonstrate it for our client.
@@ -268,5 +272,11 @@ https://cad.onshape.com/documents/e44334abe83648b59376c2f0/w/ce9bee7bc446a3097db
   ![Switch Shazamboni](https://user-images.githubusercontent.com/82286857/164106176-7e3a6bbf-64a2-4934-818a-f07eee7bc10d.jpeg)
 
   *Figure 18. A switch for toggling.* 
+  
+  ### Brushes Switch
+  
+  ![Motor Brushes Switch and Controls](https://user-images.githubusercontent.com/82286857/165637398-07429b58-91ef-41a6-aa50-b18587e432bd.jpeg)
+
+  *Figure 18. Another switch for toggling the brushes.* 
 
 
