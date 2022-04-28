@@ -223,7 +223,11 @@ https://cad.onshape.com/documents/e44334abe83648b59376c2f0/w/ce9bee7bc446a3097db
 
 ## Video of the Final System
 
-**Notes:** This section shows images and a video of the final product as we, the whole team, demonstrate it for our client.
+https://drive.google.com/drive/folders/1PnwY2rx2Fli46syM7EgfHjKS_C3NWgrZ?usp=sharing
+
+**Notes:** Below is the link for our videos of the final Shazamboni product in use with the Shaz App.
+
+https://drive.google.com/drive/folders/1PnwY2rx2Fli46syM7EgfHjKS_C3NWgrZ?usp=sharing
 
 ## Assembly of the Final System
 
