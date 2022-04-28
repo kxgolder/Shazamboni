@@ -223,8 +223,6 @@ https://cad.onshape.com/documents/e44334abe83648b59376c2f0/w/ce9bee7bc446a3097db
 
 ## Video of the Final System
 
-https://drive.google.com/drive/folders/1PnwY2rx2Fli46syM7EgfHjKS_C3NWgrZ?usp=sharing
-
 **Notes:** Below is the link for our videos of the final Shazamboni product in use with the Shaz App.
 
 https://drive.google.com/drive/folders/1PnwY2rx2Fli46syM7EgfHjKS_C3NWgrZ?usp=sharing
