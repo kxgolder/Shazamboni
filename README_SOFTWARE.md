@@ -38,7 +38,7 @@ When the user opens the controller page, the program creates a web socket channe
 
 * *Flutter SDK >= 2.12.0 < 3.0/.0 using several plug-ins: Flutter_mjpeg 2.0.1, control_pad 1.1.1, web_socket_channel 2.1.0*
 
-* *We used Python 3.10 for the running the python scripts*
+* *Python 3.10 for the running the python scripts*
 
 ## Installation from Scratch
 
