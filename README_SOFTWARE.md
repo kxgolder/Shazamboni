@@ -23,6 +23,8 @@ This is a documentation that describes how all of our software works. The markdo
 
 *Figure 2. Ditto, with a focus on the software components overall.*
 
+![Software Code Flow Chart with code](https://user-images.githubusercontent.com/82286857/166009196-7ae3d791-e23a-4cc5-92e7-247dd424858c.jpeg)
+
 *Figure 3. Ditto, with the specific code and function for each software module.*
 
 ## Dev and Build Tool Information
