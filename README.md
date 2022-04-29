@@ -59,11 +59,11 @@ We spent time figuring out which components we could use. We figured that ultras
 
 ## Nota Bene
 
-During testing with the ultrasonic sensors, we encountered some problems such as late detecting and non-detection of complex objects. We advise people in the future to use LIDAR for better detection of objects. While we were successful in implementing an ad hoc network for our device and app, we found the task difficult in implementing. We advise thus to follow the reference featured in the Hardware Report by the letter for successful implementation of ad hoc networking. 
+During testing with the ultrasonic sensors, we encountered some problems such as late detecting and non-detection of complex objects. We advise people in the future to use LIDAR for better detection of objects. While we were successful in implementing an ad hoc network for our device and app, we found the task difficult in implementing. We advise thus to follow the reference featured in the Hardware Report by the letter for successful implementation of ad hoc networking. Finally, we suggest working on a more secure blackbox and finding better wires so that parts do not fall out or short circuit, if they do. 
 
 ## Current State
 
-We have successfully completed all testing requirements and have succesfully tested the device on an ice rink. The Shazamboni and Shaz App work well together. 
+We have successfully completed all testing requirements and have tested the device on an ice rink. The Shazamboni and Shaz App work well together. 
 
 ## Acknowledgements
 We express thanks to all the staff and TAs in the ECE and ME department at Boston University, as well as our client. We personally thank professors Alan Pisano, Michael Hirsh, Osama Alshaykh, and William Hauser as well as our graduate senior member Shashwath Bharadwaj for their continued support and guidance. We also thank all the sources we used for developing this project. We thank Marianna Natale, Mei Singer, and Beau Walsh for their work on the ME/MechE team portion of the project. Finally, we thank our client, Alan D. Pisano Jr. for reaching out to us and supporting us throughout the project!
