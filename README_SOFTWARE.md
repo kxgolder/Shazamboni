@@ -15,7 +15,8 @@ This is a documentation that describes how all of our software works. The markdo
 
 ## Flow Charts
 
-![Flow Chart Overall](https://user-images.githubusercontent.com/82286857/164093113-8d1a074c-5aae-4c8b-a3e5-bc18404d124a.png)
+![Overall Flow Chart](https://user-images.githubusercontent.com/82286857/166062249-edcc6353-cb81-4313-8180-a1ced2b73083.jpeg)
+
 
 *Figure 1. The system overview diagram of the Shazamboni. The blocks shaded in blue are the software components, and the blocks shaded in orange are the hardware components of the system.*
 
