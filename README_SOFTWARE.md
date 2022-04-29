@@ -13,6 +13,10 @@ This is a documentation that describes how all of our software works. The markdo
 
 ## Overview of Each Software Module
 
+Our project uses a cross-platform mobile application and a controller python script that runs on our Raspberry Pi 4B. We made the application using Flutter, which uses the Dart programming language. The main program, **main.dart**, initializes the app which contains the home screen, **home_screen.dart** , where the user can tap on “Start” to get to the controller screen, **second_screen.dart**. The controller screen contains a virtual joystick and a live video stream of the camera on the Shazamboni. 
+
+When the user opens the controller page, the program creates a web socket channel that connects to and communicates with the socket running on the Raspberry Pi 4B. The Shazamboni houses the Pi in a “black box. The app listens for any packets sent by the Pi that indicate the ultrasonic sensors have detected an obstacle.  When the user moves the joystick on the controller screen, a JSON packet containing degrees and distance values gets sent to the Pi, unless an obstacle is detected. The controller python , **controller,py**, uses these sent values, creates a websocket based on the sent values, and finally controls the motors on the Shazamboni. 
+
 ## Flow Charts
 
 ![Overall Flow Chart](https://user-images.githubusercontent.com/82286857/166062249-edcc6353-cb81-4313-8180-a1ced2b73083.jpeg)
@@ -30,4 +34,33 @@ This is a documentation that describes how all of our software works. The markdo
 
 ## Dev and Build Tool Information
 
+Shaz App and the python scripts for the Shazamboni use the following builds below:
+
+* Flutter SDK >= 2.12.0 < 3.0/.0 using several plug-ins: Flutter_mjpeg 2.0.1, control_pad 1.1.1, web_socket_channel 2.1.0
+
+* Python 3.10 was used for the running the python scripts
+
 ## Installation from Scratch
+
+To install the ShazApp component of our project software stack from scratch, open an IDE or integrated development environment compatible with Flutter (i.e. IntelliJ) and clone the project from our github repository,  https://github.com/kxgolder/Shazamboni. Then, connect your phone to the computer and run the app on the smartphone. After a few seconds, the app should start on your phone. To connect the phone to the Shazamboni, connect to the Shazamboni network. To start the controller script on the Pi, ssh or secure shell network into the Pi using SSH pi@10.0.6.1. Then, go into the Shazamboni folder (*cd Shazamboni*) and run the script (*python3 controller.py*). The app is now connected to the Shazamboni, and ready to resurface your ice! 
+
+The steps are below:
+
+1. Open an IDE on your computer, like terminal
+
+2. On the same IDE in step 1, Run ***git clone  https://github.com/kxgolder/Shazamboni***
+
+3. Connect phone to your computer and run the app
+
+4. Wait a few seconds
+
+5. Connect to network titled Shazamboni via phone
+
+6. Start controller script on Pi via ssh with ***SSH pi@10.0.6.1.***
+
+7. On the same IDE in step 1, Run ***cd Shazamboni***
+
+8. On the same IDE in step 1, Run ***python3 controller.py***
+
+9. Get ready to resurface your ice!
+
