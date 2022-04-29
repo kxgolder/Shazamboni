@@ -2,7 +2,7 @@
 
 ## Summary
 
-This is a markdown file about all of the hardware both the Electrical and Computer Engineer (henceforth referred as ECE) and Mechanical Engineer (henceforth referred as ME) teams used in creating the Shazamboni. It features schematics, CAD diagrams, vendor information, our bill of materials (BOM), power requirements, references, a video, and finally assembly of the final Shazamboni product.
+This is a markdown file about all of the hardware both the Electrical and Computer Engineer (henceforth referred as ECE) and Mechanical Engineer (henceforth referred as MechE) teams used in creating the Shazamboni. It features schematics, CAD diagrams, vendor information, our bill of materials (BOM), power requirements, references, a video, and finally assembly of the final Shazamboni product.
 
 ## Table of Contents
 
@@ -25,40 +25,40 @@ This is a markdown file about all of the hardware both the Electrical and Comput
 ### CAD Pictures
 <img width="667" alt="Isometric View" src="https://user-images.githubusercontent.com/82286857/163689817-c33a0723-cdae-4ea1-a05b-18cc9502fd9e.png">
  
- *Figure 2. This is an isometric view of the CAD model of the Shazamboni that the ME team designed.* 
+ *Figure 2. This is an isometric view of the CAD model of the Shazamboni that the team designed.* 
  
  <img width="397" alt="Top View" src="https://user-images.githubusercontent.com/82286857/163689840-f8309442-d865-47a7-97ba-dc31e15b46f2.png">
  
-  *Figure 3. This is a top view of the CAD model of the Shazamboni that the ME team designed.* 
+  *Figure 3. This is a top view of the CAD model of the Shazamboni that the MechE team designed.* 
 
 <img width="440" alt="Bottom View" src="https://user-images.githubusercontent.com/82286857/163689833-64f75184-9eb1-4d95-93fc-08eca9469ebd.png">
  
-  *Figure 4. This is a bottom view of the CAD model of the Shazamboni that the ME team designed.* 
+  *Figure 4. This is a bottom view of the CAD model of the Shazamboni that the MechE team designed.* 
   
 <img width="705" alt="Front View" src="https://user-images.githubusercontent.com/82286857/163689856-592ee761-3933-42b7-9147-afcceb9d24d0.png">
   
-  *Figure 5. This is a front view of the CAD model of the Shazamboni that the ME team designed.* 
+  *Figure 5. This is a front view of the CAD model of the Shazamboni that the MechE team designed.* 
   
   <img width="657" alt="Rear View" src="https://user-images.githubusercontent.com/82286857/163689861-4824298c-07b6-42bc-a828-f405985978ad.png">
   
-  *Figure 6. This is a rear view of the CAD model of the Shazamboni that the ME team designed.* 
+  *Figure 6. This is a rear view of the CAD model of the Shazamboni that the MechE team designed.* 
   
   <img width="657" alt="Left Side View" src="https://user-images.githubusercontent.com/82286857/163690167-d9e82597-2591-4759-ad67-7d8252472ab8.png">
 
-  *Figure 7. This is a left side view of the CAD model of the Shazamboni that the ME team designed.* 
+  *Figure 7. This is a left side view of the CAD model of the Shazamboni that the MechE team designed.* 
   
   <img width="677" alt="Right Side View" src="https://user-images.githubusercontent.com/82286857/163689890-f8bf2813-8732-4701-bd27-0d19acf41dbd.png">
     
-  *Figure 8. This is a right side view of the CAD model of the Shazamboni that the ME team designed.* 
+  *Figure 8. This is a right side view of the CAD model of the Shazamboni that the MechE team designed.* 
   
 ### CAD Files
 
-Check the GitHub repository for the files. In addition, the ME team provided us with a link to their actual CAD file listed below:
+Check the GitHub repository for the files. In addition, the MechE team provided us with a link to their actual CAD file listed below:
 https://cad.onshape.com/documents/e44334abe83648b59376c2f0/w/ce9bee7bc446a3097dbfaa24/e/03f997488604f520964b69b2
 
 ## Vendor Information and Bill of Materials
 
-**Notes:** On the ECE side of the project, the ECE team used **Amazon** as the sole vendor for all their purchased items. On the ME side of the project, the ME team did not reference any specific vendors besides **Amazon**. The bill of materials for both teams are listed below. A link for more detailed information is included at the end of the sections. The total cost of all the materials both teams used comes to $937.38, which is out of a total budget of $2000 ($1000 provided by Boston University ECE and ME departments) allocated for both teams.
+**Notes:** On the ECE side of the project, the ECE team used **Amazon** as the sole vendor for all their purchased items. On the MechE side of the project, the MechE team did not reference any specific vendors besides **Amazon**. The bill of materials for both teams are listed below. A link for more detailed information is included at the end of the sections. The total cost of all the materials both teams used comes to $937.38, which is out of a total budget of $2000 ($1000 provided by Boston University ECE and MechE departments) allocated for both teams.
 
 ### Vendor Information
 
@@ -85,7 +85,7 @@ https://cad.onshape.com/documents/e44334abe83648b59376c2f0/w/ce9bee7bc446a3097db
 | DC Converter | 1 DC Converter | $11.99 | $11.99|
 | **TOTAL PRICE OVERALL:** | | | **$398.19** |
 
-### ME Hardware Bill of Materials
+### MechE Hardware Bill of Materials
 
 #### Feasibility
 | Item | Quantity | Unit Price | Total Price |
@@ -145,11 +145,11 @@ https://cad.onshape.com/documents/e44334abe83648b59376c2f0/w/ce9bee7bc446a3097db
  
  ### Combined Price
  
- **THE COMBINED TOTAL PRICE OF BOTH ECE AND ME BILL OF MATERIALS: $937.38.**
+ **THE COMBINED TOTAL PRICE OF BOTH ECE AND MechE BILL OF MATERIALS: $937.38.**
 
 ### Links for more details
 * [ECE Full Bill of Materials](https://docs.google.com/spreadsheets/d/1dOb92htjslwmOOMava8AC0Ess3M7UXmO25NWhFuS7Wc/edit?usp=sharing).
-* [ME Full Bill of Materials](https://docs.google.com/spreadsheets/d/1R1Zin64dLP7bJb9QeGsinObtVFDHWOckvjZxHZ5VNsc/edit?usp=sharing).
+* [MechE Full Bill of Materials](https://docs.google.com/spreadsheets/d/1R1Zin64dLP7bJb9QeGsinObtVFDHWOckvjZxHZ5VNsc/edit?usp=sharing).
 
 ## Power Requirements
 **Notes:** The Shazamboni uses a TalentCell 2000 Cycles Rechargeable 12V 24Ah 288Wh Lithium Iron Phosphate (LiFePO4) Deep Cycle Battery Pack (linked below). We calculated that the whole system will need approximately 22,000mAh (more precisely, 21520mAh) or about 22Ah. 
@@ -256,12 +256,12 @@ https://drive.google.com/drive/folders/1PnwY2rx2Fli46syM7EgfHjKS_C3NWgrZ?usp=sha
 
 ![Motor Brush](https://user-images.githubusercontent.com/82286857/164105886-cefe698b-1c10-4c63-bbec-e18b0ba52079.jpeg)
 
- *Figures 14. The ME team's motor brush.* 
+ *Figures 14. The MechE team's motor brush.* 
 
 ![Left Motor](https://user-images.githubusercontent.com/82286857/164064851-ceed69b1-50b8-41b5-af81-2c1b27d24f87.jpeg)
 ![Right Motor](https://user-images.githubusercontent.com/82286857/164064873-0bdf3bd6-5cc2-4e80-883c-e610c1fff676.jpeg)
 
- *Figures 15-16. These images show our setup of the DC motors (left and right motors, respectively) we set up for the ME team to test their wheels.* 
+ *Figures 15-16. These images show our setup of the DC motors (left and right motors, respectively) we set up for the MechE team to test their wheels.* 
  
  ### Bread Board
  
