@@ -51,15 +51,7 @@ The camera live stream uses mjpg-streamer on the Raspberry Pi along with the Ard
 
 ## Setup
 
-For normal operation, the user will do the following:
-
-1. The user will use the ShazApp to login and communicate with the Shazamboni
-
-2. The user will use the joystick controls to pilot the Shazamboni to clean the ice
-
-3. If the user encounters a wall, the user should be able to back up after a period of five seconds has elapsed.
-
-The user will have access to the livestream and joystick controls when logged in.
+We formatted the Shazamboni and the Shaz App to be easy for the user. In terms of setting up the software and hardware, the user will have to follow the procedures laid out in the software and hardware readmes as well as the user manual filed in the reports folder.
 
 ## Gotchas
 
