@@ -46,7 +46,7 @@ To install the ShazApp component of our project software stack from scratch, ope
 
 **The steps are abbreviated below:**
 
-1. Open an IDE on your computer, like terminal
+1. Open an IDE on your computer, like Terminal
 
 2. On the same IDE as in step 1, type and run ***git clone  https://github.com/kxgolder/Shazamboni***
 
