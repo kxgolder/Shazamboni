@@ -44,7 +44,7 @@ Shaz App and the python scripts for the Shazamboni use the following builds belo
 
 To install the ShazApp component of our project software stack from scratch, open an IDE or integrated development environment compatible with Flutter (i.e. IntelliJ) and clone the project from our github repository,  https://github.com/kxgolder/Shazamboni. Then, connect your phone to the computer and run the app on the smartphone. After a few seconds, the app should start on your phone. To connect the phone to the Shazamboni, connect to the Shazamboni network. To start the controller script on the Pi, ssh or secure shell network into the Pi using SSH pi@10.0.6.1. Then, go into the Shazamboni folder (*cd Shazamboni*) and run the script (*python3 controller.py*). The app is now connected to the Shazamboni, and ready to resurface your ice! 
 
-The steps are below:
+**The steps are abbreviated below:**
 
 1. Open an IDE on your computer, like terminal
 
