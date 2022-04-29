@@ -34,11 +34,11 @@ When the user opens the controller page, the program creates a web socket channe
 
 ## Dev and Build Tool Information
 
-Shaz App and the python scripts for the Shazamboni use the following builds below:
+**Shaz App and the python scripts for the Shazamboni use the following builds below:**
 
-* Flutter SDK >= 2.12.0 < 3.0/.0 using several plug-ins: Flutter_mjpeg 2.0.1, control_pad 1.1.1, web_socket_channel 2.1.0
+* *Flutter SDK >= 2.12.0 < 3.0/.0 using several plug-ins: Flutter_mjpeg 2.0.1, control_pad 1.1.1, web_socket_channel 2.1.0*
 
-* Python 3.10 was used for the running the python scripts
+* *We used Python 3.10 for the running the python scripts*
 
 ## Installation from Scratch
 
@@ -48,7 +48,7 @@ To install the ShazApp component of our project software stack from scratch, ope
 
 1. Open an IDE on your computer, like terminal
 
-2. On the same IDE in step 1, Run ***git clone  https://github.com/kxgolder/Shazamboni***
+2. On the same IDE as in step 1, Run ***git clone  https://github.com/kxgolder/Shazamboni***
 
 3. Connect phone to your computer and run the app
 
@@ -56,11 +56,11 @@ To install the ShazApp component of our project software stack from scratch, ope
 
 5. Connect to network titled Shazamboni via phone
 
-6. Start controller script on Pi via ssh with ***SSH pi@10.0.6.1.***
+6. On the same IDE as in step 1 and 2, Start controller script on Pi via ssh with ***SSH pi@10.0.6.1.***
 
-7. On the same IDE in step 1, Run ***cd Shazamboni***
+7. On the same IDE as in step 1, 2, and 6, Run ***cd Shazamboni***
 
-8. On the same IDE in step 1, Run ***python3 controller.py***
+8. On the same IDE as in step 1, 2, 6, and 7, Run ***python3 controller.py***
 
 9. Get ready to resurface your ice!
 
