@@ -54,7 +54,7 @@ To install the ShazApp component of our project software stack from scratch, ope
 
 4. Wait a few seconds
 
-5. Connect to network titled Shazamboni via phone
+5. Connect to network titled **Shazamboni** via phone
 
 6. On the same IDE as in step 1 and 2, type and start the controller script on the Pi via ssh with ***SSH pi@10.0.6.1.***
 
