@@ -48,7 +48,7 @@ To install the ShazApp component of our project software stack from scratch, ope
 
 1. Open an IDE on your computer, like terminal
 
-2. On the same IDE as in step 1, Run ***git clone  https://github.com/kxgolder/Shazamboni***
+2. On the same IDE as in step 1, type and run ***git clone  https://github.com/kxgolder/Shazamboni***
 
 3. Connect phone to your computer and run the app
 
@@ -56,11 +56,11 @@ To install the ShazApp component of our project software stack from scratch, ope
 
 5. Connect to network titled Shazamboni via phone
 
-6. On the same IDE as in step 1 and 2, Start controller script on Pi via ssh with ***SSH pi@10.0.6.1.***
+6. On the same IDE as in step 1 and 2, type and start the controller script on the Pi via ssh with ***SSH pi@10.0.6.1.***
 
-7. On the same IDE as in step 1, 2, and 6, Run ***cd Shazamboni***
+7. On the same IDE as in step 1, 2, and 6, type and run ***cd Shazamboni***
 
-8. On the same IDE as in step 1, 2, 6, and 7, Run ***python3 controller.py***
+8. On the same IDE as in step 1, 2, 6, and 7, type and run ***python3 controller.py***
 
 9. Get ready to resurface your ice!
 
