@@ -2,25 +2,26 @@
 
 ## Summary
 
-This is a markdown file about all of the hardware both the Electrical and Computer Engineer (henceforth referred as ECE) and Mechanical Engineer (henceforth referred as MechE) teams used in creating the Shazamboni. It features schematics, CAD diagrams, vendor information, our bill of materials (BOM), power requirements, references, a video, and finally assembly of the final Shazamboni product.
+This is a markdown file about all of the hardware both the Electrical and Computer Engineer (henceforth referred as ECE) and Mechanical Engineer (henceforth referred as MechE) teams used in creating the Shazamboni. It features our final schematic, CAD diagrams, vendor information, our bill of materials (BOM), power requirements, references, a video, and finally assembly of the final Shazamboni product.
 
 ## Table of Contents
 
-* [Schematics and CAD Diagrams](#schematics-and-CAD-diagrams)
+* [Schematic and CAD Diagrams](#schematic-and-CAD-diagrams)
 * [Vendor Information and Bill of Materials](#vendor-information-and-bill-of-materials)
 * [Power Requirements](#power-requirements)
 * [References and Resources](#references-and-resources)
 * [Video of the Final System](#video-of-the-final-system)
 * [Assembly of the Final System](#Assembly-of-the-final-system)
 
-## Schematics and CAD Diagrams
+## Schematic and CAD Diagrams
 
 **Notes:** This section includes all the diagrams we used in the form of schematics and CAD designs. We took inspiration from various sources linked in the reference section below. The schematic is a modified variant of an ultrasonic sensor schematic we used as a template in order to implement motor control and ultrasonic integration. Figure 1 represents the final circuit schematic of the electrical components of the Shazamboni, designed by Katie. Mei and her colleagues worked on the CAD designs seen in Figures 2-8. The CAD design focuses on the mechanical aspects of the Shazamboni for the electrical components would fit compactly in a black box featured on the front view or Figure 5. Finally, The CAD files for Figures 2-8 are listed below.
 
-### Schematics
-![Schematic (Final)](https://user-images.githubusercontent.com/82286857/165636324-056ab40d-09f4-4654-af16-c045d44fb862.jpeg)
+### Schematic
 
- *Figure 1. This is a schematic of the wiring for the Shazamboni electrical hardware.* 
+![Final Schematic](https://user-images.githubusercontent.com/82286857/166082910-5b34300f-783b-4d10-bec3-e511447c860f.jpeg)
+
+ *Figure 1. This is the final schematic of the wiring for the Shazamboni electrical hardware.* 
 
 ### CAD Pictures
 <img width="667" alt="Isometric View" src="https://user-images.githubusercontent.com/82286857/163689817-c33a0723-cdae-4ea1-a05b-18cc9502fd9e.png">
